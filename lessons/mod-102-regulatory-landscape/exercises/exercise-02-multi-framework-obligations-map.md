@@ -110,8 +110,10 @@ guidance-and-supervisory than rule-and-obligation).
 
 ## Reading before you start
 
-- Lecture notes §2 (EU AI Act in depth), §3 (NIST AI RMF
-  Playbook), §4 (sector-specific).
-- One of: NYDFS Part 500 AI amendments + NAIC Model Law /
-  UK FCA AI guidance / CA insurance AI rules — depending
-  on the sector regime you pick.
+- [Chapter 2 — EU AI Act: risk tiers and Annex III](../02-eu-ai-act-risk-tiers.md).
+- [Chapter 3 — Article 9 and the NIST crosswalk](../03-article-9-and-nist-crosswalk.md).
+- [Chapter 4 — Sector-specific regulation](../04-sector-specific-regulation.md).
+- [Chapter 6 — Multi-regime obligations mapping](../06-multi-regime-obligations-mapping.md) — the register discipline the exercise runs on.
+- One of: NYDFS Part 500 AI amendments + NAIC Model
+  Bulletin on AI / UK FCA AI guidance / CA insurance AI
+  rules — depending on the sector regime you pick.

@@ -37,8 +37,8 @@ asked you to author an **AI risk taxonomy** that:
 
 Produce a one-page AI risk taxonomy with:
 
-1. **Top-level categories** — 7 to 9 maximum (per §2.1's
-   small-enough-to-remember principle).
+1. **Top-level categories** — 7 to 9 maximum (per
+   Chapter 2's *small enough to remember* principle).
 2. **For each top-level category**: a one-sentence
    definition + 2 to 4 sub-categories.
 3. **A mapping column** that maps each AI-top-level into
@@ -77,7 +77,8 @@ Followed by the reasoning note.
 - Each top-level category **must** roll up to exactly one
   enterprise category. No splits.
 - Sub-categories: 2 to 4 per top-level. Resist three-level
-  taxonomies (per §2.5 mistake).
+  taxonomies (per the taxonomy-mistakes list in
+  Chapter 2).
 - The "where it applies" annotation must distinguish *material*
   applicability from *technical* applicability. Privacy risk
   applies technically to all three; it is most material to
@@ -109,7 +110,13 @@ choice.
 
 ## Reading before you start
 
-- Lecture notes §2 (AI risk taxonomy as the unifying spine).
-- §2.2 (starting taxonomy) and §2.4 (adapting it).
-- mod-101 §3 (3LOD), to understand how the taxonomy plays
-  with second-line ownership.
+- Chapter 2 (AI Risk Taxonomy as the Unifying Spine),
+  especially the *starting taxonomy* table and the
+  *adapting the taxonomy* section.
+- mod-101 Chapter 3 (Three Lines of Defense), to
+  understand how the taxonomy plays with second-line
+  ownership.
+- Chapter 8 §3 (category-level tolerances) — the
+  taxonomy you produce here is the vocabulary the
+  appetite statement will use. Categories with no
+  plausible tolerance line are a sign to consolidate.

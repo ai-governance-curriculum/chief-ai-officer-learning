@@ -1,16 +1,16 @@
 # Module 101 — Quiz
 
-Twenty questions covering the lecture material. Most have a
+Twenty questions covering the chapter material. Most have a
 single best answer; a few are short-answer. Recommended use:
 work the quiz at the end of the module, score yourself, then
-revisit the lecture sections where you missed questions.
+revisit the chapter where you missed questions.
 
 Answer key lives in the paired solutions repo:
 [`ai-infra-chief-ai-officer-solutions / modules/mod-101-foundations/quiz-key.md`](https://github.com/ai-governance-curriculum/chief-ai-officer-solutions/blob/main/modules/mod-101-foundations/quiz-key.md)
 
 ---
 
-## Section A — Vocabulary (§1)
+## Section A — Vocabulary (Chapter 1)
 
 **Q1.** Which of the following best distinguishes AI governance
 from AI compliance?
@@ -27,11 +27,11 @@ from AI compliance?
 **Q2.** True or false: Model risk management is a *category
 within* AI governance, not a parallel discipline.
 
-**Q3.** Name two of the three forces the lecture notes
-identified as having created AI governance as a named
-discipline in the post-2022 era.
+**Q3.** Name two of the three forces Chapter 1 identifies
+as having created AI governance as a named discipline in
+the post-2022 era.
 
-## Section B — NIST AI RMF (§2)
+## Section B — NIST AI RMF (Chapter 2)
 
 **Q4.** Which NIST AI RMF function is described as operating
 *continuously across* the other three?
@@ -53,7 +53,7 @@ MEASURE?
 governance program that "passes NIST AI RMF" can still be a
 failed program.
 
-## Section C — Three Lines of Defense (§3)
+## Section C — Three Lines of Defense (Chapter 3)
 
 **Q7.** In a 3LOD model applied to AI, which of the following
 is a **second-line** function?
@@ -75,17 +75,17 @@ independence?
 **Q9.** Short answer: describe one symptom of *cosmetic
 independence* in a 3LOD model.
 
-## Section D — The CAO role (§4)
+## Section D — The CAO role (Chapters 4 and 5)
 
 **Q10.** Which of these is **not** part of the core scope of
-a CAO as described in §4?
+a CAO as described in Chapter 4?
 
   a. Ownership of the AI risk register
   b. Ownership of model selection decisions
   c. Ownership of the AI policy hierarchy
   d. Co-signing external AI trust attestations
 
-**Q11.** Which reporting line is identified in §4 as
+**Q11.** Which reporting line is identified in Chapter 4 as
 breaking 3LOD?
 
   a. CAO → CEO
@@ -93,7 +93,7 @@ breaking 3LOD?
   c. CAO → CTO
   d. CAO → COO
 
-**Q12.** True or false: The lecture notes claim that every
+**Q12.** True or false: Chapter 4 claims that every
 organization that has AI in production needs a Chief AI
 Officer.
 
@@ -110,12 +110,13 @@ Officer.
   b. AI-specific threat models + AI incident classification
   c. Training-data provenance + downstream use restrictions
 
-**Q14.** Short answer: which CAO anti-pattern from §4 is most
-likely to develop in an org that *retitles* a senior ML
-researcher to "Chief AI Officer" without changing their
-accountabilities? Explain in one sentence.
+**Q14.** Short answer: which CAO anti-pattern from
+Chapter 8 is most likely to develop in an org that
+*retitles* a senior ML researcher to "Chief AI Officer"
+without changing their accountabilities? Explain in one
+sentence.
 
-## Section E — Operating models (§5)
+## Section E — Operating models (Chapter 6)
 
 **Q15.** Which operating model is described as the **most
 common mature pattern** for mid-to-large organizations?
@@ -137,7 +138,7 @@ governance operating model?
 **centralized** operating model is likely the best fit, and
 say why in one sentence.
 
-## Section F — Failure modes (§6)
+## Section F — Failure modes (Chapter 8)
 
 **Q18.** Which failure mode is described by the symptom *"the
 governance team's main work becomes processing exceptions"*?
@@ -156,6 +157,6 @@ policy hierarchy maps directly to regulators, not to risks"*?
   d. Compliance-only stance
 
 **Q20.** Short answer: in two sentences, contrast the
-*compliance-only stance* failure mode (§6) with the
-*governance theatre* failure mode. Where do they overlap, and
-where do they differ?
+*compliance-only stance* failure mode (Chapter 8) with the
+*governance theater* failure mode. Where do they overlap,
+and where do they differ?

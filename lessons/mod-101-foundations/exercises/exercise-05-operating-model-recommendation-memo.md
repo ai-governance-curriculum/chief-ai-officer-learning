@@ -66,7 +66,7 @@ The memo should:
   §5 (Leadership) is a strong anchor.
 - Practitioner references (Anthropic RSP, Microsoft RAI,
   Google SAIF) may be used as *range*, not as the answer.
-  See §5 of the lecture notes for the framing.
+  See [Chapter 6](../06-operating-models.md) for the framing.
 - The memo will be read by a risk committee that includes
   the board chair (background: industrial CEO) and two
   external directors (background: one large-firm GC, one
@@ -104,7 +104,8 @@ meeting. Score yourself on the rubric.
 
 ## Reading before you start
 
-- Lecture notes §5 (operating models) and §6 (failure modes).
+- [Chapter 6](../06-operating-models.md) (operating models)
+  and [Chapter 8](../08-failure-modes.md) (failure modes).
 - ISO 42001 §5 (Leadership) — required reading for the
   framework anchor.
 - Skim ONE of: Anthropic RSP, Microsoft RAI Standard, or

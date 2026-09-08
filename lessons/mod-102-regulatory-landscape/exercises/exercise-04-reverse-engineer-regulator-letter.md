@@ -143,8 +143,9 @@ exist.
 
 ## Reading before you start
 
+- [Chapter 7 — Reading a regulator letter](../07-reading-a-regulator-letter.md) — the four questions and the response-plan structure.
+- [Chapter 4 — Sector-specific regulation](../04-sector-specific-regulation.md) — financial services subsection.
 - OCC/FRB SR 11-7. The MRM framework is the lens through
   which OCC examiners read AI letters.
-- Lecture notes §4 (financial-services sector).
 - CFPB Circular 2022-03 — for awareness, though OCC, not
   CFPB, is the supervisor here.

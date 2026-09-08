@@ -31,9 +31,9 @@ Produce two artifacts.
 
 ### Artifact 1 — The template
 
-A working impact-assessment template based on §3.3 of the
-lecture notes (seven sections) — but adapted, with named
-fields, with constraints, with prose guidance for each
+A working impact-assessment template based on Chapter 4
+(the seven-section template) — but adapted, with named
+fields, with constraints, and with prose guidance for each
 field.
 
 The template should include, for each section:
@@ -61,8 +61,9 @@ The worked example should be:
 
 - **Honest** — flag real gaps in the chat agent, not just
   positive findings.
-- **Specific** — use the §3.3 discipline ("the model
-  under-rates X" not "the model could be biased").
+- **Specific** — use the specificity discipline from
+  Chapter 4 ("the model under-rates X" not "the model
+  could be biased").
 - **A demonstration of the template** — every section
   filled in, in the form the template prescribes.
 
@@ -72,10 +73,12 @@ The worked example should be:
 - Worked-example length cap: 4 pages.
 - Both artifacts must use the AI risk taxonomy from
   Exercise 01 (or, if you have not done Exercise 01, the
-  starting taxonomy from §2.2 of the lecture notes).
+  starting nine-category taxonomy from Chapter 2).
 - The template must include guidance to **not** propose
-  controls in the impact assessment (per §3.4 — MAP names
-  risks; MANAGE names controls).
+  controls in the impact assessment (per Chapter 3
+  §*What MAP is not* and Chapter 4 §*What the template
+  must not do* — MAP names risks; MANAGE names
+  controls).
 - The worked example must include **at least one residual
   risk that cannot be fully mitigated by an existing
   control**. Real impact assessments have these; templates
@@ -85,7 +88,7 @@ The worked example should be:
 
 | Criterion | Weight |
 |---|---|
-| Template — all seven sections covered (per §3.3) | 20% |
+| Template — all seven sections covered (per Chapter 4) | 20% |
 | Template — fields named and prompted, not just titled | 15% |
 | Template — constraints discourage vague entries | 15% |
 | Template — explicitly does not blur into MANAGE | 10% |
@@ -102,10 +105,15 @@ example for Northfield's chat agent.
 
 ## Reading before you start
 
-- Lecture notes §3 (MAP in practice), especially §3.3
-  (impact assessment) and §3.4 (what MAP is not).
-- Lecture notes §2.2 (starting taxonomy) — if you have
-  not done Exercise 01.
+- Chapter 3 (MAP in Practice), especially the *What MAP
+  is not* section — the template must resist the
+  MAP-collapses-into-MANAGE mistake.
+- Chapter 4 (The Impact Assessment Template) end to end.
+- Chapter 2 (the starting nine-category taxonomy) — if
+  you have not done Exercise 01.
+- EU AI Act Article 27 (fundamental-rights impact
+  assessment) — comparison for the fundamental-rights
+  framing in the template.
 - Microsoft Responsible AI Standard impact-assessment
   template (public) — useful as comparison material. Do
   not copy; observe pattern range.

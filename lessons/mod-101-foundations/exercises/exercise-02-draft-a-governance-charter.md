@@ -45,8 +45,8 @@ addresses, at minimum:
    decisions can it block? What can it only recommend?
 4. **Structure.** Where does the CAO report? What is the
    relationship to existing functions (especially the CRO/MRM,
-   CISO, CDO, GC, CTO)? Use the boundary table from §4 of the
-   lecture notes as a starting point.
+   CISO, CDO, GC, CTO)? Use the boundary table from
+   [Chapter 5](../05-peer-boundaries.md) as a starting point.
 5. **Standards alignment.** Which authoritative framework
    anchors this program (NIST AI RMF, ISO 42001, or both)?
    Justify in two sentences.
@@ -71,7 +71,7 @@ addresses, at minimum:
 - The charter must be **regulator-presentable** — written so
   the state insurance regulator could read it without
   translation.
-- The charter must **respect 3LOD** (§3 of the lecture notes).
+- The charter must **respect 3LOD** ([Chapter 3](../03-three-lines-of-defense.md)).
   If your structure compromises 3LOD independence, explain why
   it is the right trade-off for Northfield.
 - Length cap: **3 pages**. Charters over 3 pages get
@@ -97,7 +97,7 @@ addresses, at minimum:
 contains a reference charter for Northfield. As with Exercise
 01, it is *one* defensible answer, not the only correct one.
 
-## Pitfalls (from §6 of the lecture notes)
+## Pitfalls (from [Chapter 8](../08-failure-modes.md))
 
 When you finish, check your draft against the failure modes:
 

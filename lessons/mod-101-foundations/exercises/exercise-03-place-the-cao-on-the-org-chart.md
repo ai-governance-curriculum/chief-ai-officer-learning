@@ -43,7 +43,8 @@ The constraints:
 ## Your assignment
 
 1. **Choose a reporting line for the CAO** from the viable
-   options described in §4 of the lecture notes. You may
+   options described in
+   [Chapter 4](../04-when-to-appoint-a-cao.md). You may
    propose a *dotted-line + solid-line* arrangement if you
    think it improves the structure.
 2. **Draw the resulting org chart.** Markdown is fine
@@ -64,9 +65,10 @@ The constraints:
 
 ## Constraints
 
-- Pick a reporting line that is **viable per §4** of the
-  lecture notes. If you propose CAO → CTO, you must explicitly
-  rebut the 3LOD concern; the bar is high.
+- Pick a reporting line that is **viable per
+  [Chapter 4](../04-when-to-appoint-a-cao.md)**. If you
+  propose CAO → CTO, you must explicitly rebut the 3LOD
+  concern; the bar is high.
 - "Report to the CEO" is not a free lunch. Defend it as
   rigorously as any other choice (executive bandwidth,
   visibility into operations, board interface).
@@ -78,7 +80,7 @@ The constraints:
 
 | Criterion | Weight |
 |---|---|
-| Reporting-line choice — coherent with §4; alternatives explicitly considered | 25% |
+| Reporting-line choice — coherent with Chapter 4; alternatives explicitly considered | 25% |
 | 3LOD independence — preserved, or trade-off explicitly defended | 25% |
 | CMO boundary — handled with specific decision rights, not vague "collaboration" | 15% |
 | CIO boundary — handled with specific decision rights | 10% |
@@ -98,8 +100,13 @@ reference's, not on whether your structure matches.
 
 ## Reading before you start
 
-- Lecture notes §3 (3LOD) and §4 (CAO scope + reporting line).
-- The reporting-line table in §4 is the structural map.
+- [Chapter 3](../03-three-lines-of-defense.md) (3LOD) and
+  [Chapter 4](../04-when-to-appoint-a-cao.md) (reporting-line
+  options and viability), plus
+  [Chapter 5](../05-peer-boundaries.md) for peer scope
+  (especially the CMO-adjacent CAE and GC boundaries).
+- The reporting-line viability list in Chapter 4 is the
+  structural map.
 - For the clinical-authority boundary: MHRA *Software and AI
   as a Medical Device* guidance, and the CQC's *Right
   Support, Right Care, Right Culture* digital framework. (Out

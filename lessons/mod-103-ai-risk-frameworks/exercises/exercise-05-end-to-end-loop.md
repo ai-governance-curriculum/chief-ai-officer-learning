@@ -27,8 +27,8 @@ system:
 
 ### Artifact 1 — Inventory row
 
-The system's row in the AI system inventory, populated with
-the attributes from §3.1 of the lecture notes.
+The system's row in the AI system inventory, populated
+with the attributes from Chapter 3 §*The inventory*.
 
 ### Artifact 2 — Classification
 
@@ -61,14 +61,21 @@ assessment. Full treatment, including residual.
 
 A short summary (½ page maximum) that addresses:
 
-- Where this system lives in the risk register.
+- Where this system lives in the risk register (Chapter 7
+  §*The AI risk register*).
 - What roll-up to the board report it would receive in
-  the next quarter.
-- The named GOVERN-level review cadence for this system.
+  the next quarter (Chapter 7 §*The board report*).
+- The named GOVERN-level review cadence for this system
+  (from the operating-rhythm calendar).
 - One concrete way the loop might close: a pattern that,
   if it appeared in this system's MEASURE outputs, would
   trigger a GOVERN-level change (policy, taxonomy,
-  cadence, ownership).
+  cadence, ownership) — see Chapter 7 §*Closing the
+  loop*.
+- **Appetite alignment.** Name whether the treated
+  residual risk sits within, at, or above the appetite
+  tolerance for its category (Chapter 8 §*Category-level
+  tolerances*). If above, name the escalation path.
 
 ## Constraints
 
@@ -96,12 +103,12 @@ A short summary (½ page maximum) that addresses:
 
 | Criterion | Weight |
 |---|---|
-| Inventory row — populated with the §3.1 attributes | 10% |
+| Inventory row — populated with the Chapter 3 attributes | 10% |
 | Classification — both regulatory and taxonomy | 10% |
 | Impact assessment — uses template, specific failure modes | 15% |
 | Measurement plan — leading + lagging per top-3 risk, observable thresholds | 15% |
 | Treatment plan — controls linked to indicators, residual named | 15% |
-| GOVERN summary — register placement + roll-up + cadence + loop-closing example | 15% |
+| GOVERN summary — register placement + roll-up + cadence + loop-closing example + appetite alignment | 15% |
 | Linkage — artifacts reference each other coherently | 15% |
 | Length discipline — ≤ 8 pages total | 5% |
 
@@ -115,7 +122,10 @@ submission retinal-imaging algorithm as the system.
 ## Reading before you start
 
 - All previous mod-103 exercises (this builds on them).
-- Lecture notes §6 (GOVERN continuously) for the
-  loop-closing pattern.
+- Chapter 7 (GOVERN and Closing the Loop), especially
+  the end-to-end synthesis diagram and the loop-closing
+  patterns.
+- Chapter 8 (The Risk Appetite Statement) for the
+  appetite-alignment tag on the GOVERN summary.
 - mod-101 Exercise 05 reference for the Kerridge context
   (if you use that scenario).

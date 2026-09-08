@@ -10,12 +10,17 @@
 You are the CAO at any organization of your choice (use one
 of the fictional companies from earlier exercises, or
 imagine your real employer's profile if you have one).
-Lecture notes §6 names three things a jurisdictional
-mapping function must do:
+[Chapter 8 — Regulatory monitoring cadence](../08-regulatory-monitoring-cadence.md)
+names the three outputs a monitoring function must
+produce:
 
-1. Maintain the obligations register.
-2. Monitor for change.
-3. Produce the inventory-of-obligations report.
+1. Detect regulatory change early enough that the
+   obligations register can be updated before it becomes
+   wrong.
+2. Surface enforcement patterns early enough that the
+   program can adjust before the pattern reaches your
+   firm.
+3. Feed the quarterly inventory-of-obligations report.
 
 This exercise builds the **monitoring** function — item 2.
 The deliverable is a *playbook specification* that another
@@ -130,8 +135,10 @@ diverge; score yourself on rubric, not match.
 
 ## Reading before you start
 
-- Lecture notes §6 (jurisdictional mapping discipline).
-- One of: an existing internal regulatory-monitoring playbook
-  you have access to, or the open-source EU Commission
-  *Have your say* portal's notification structure (for an
-  example of the artifact granularity you should monitor at).
+- [Chapter 8 — Regulatory monitoring cadence](../08-regulatory-monitoring-cadence.md) — the shape the playbook implements.
+- [Chapter 6 — Multi-regime obligations mapping](../06-multi-regime-obligations-mapping.md) — the register the monitoring function keeps current.
+- One of: an existing internal regulatory-monitoring
+  playbook you have access to, or the open-source EU
+  Commission *Have your say* portal's notification
+  structure (for an example of the artifact granularity
+  you should monitor at).

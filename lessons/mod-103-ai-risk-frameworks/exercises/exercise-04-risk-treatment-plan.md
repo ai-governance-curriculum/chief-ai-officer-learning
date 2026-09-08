@@ -38,8 +38,8 @@ Produce a one-page risk-treatment plan with:
    one-line justification.
 4. **Controls applied** — referenced from the control
    catalog (you may invent one if not yet built;
-   the lecture notes §5.1 give the structure). For
-   each control:
+   Chapter 6 §*The control catalog* gives the
+   structure). For each control:
    - What it does.
    - Where it sits in the lifecycle (pre-deployment,
      deployment, post-deployment).
@@ -60,7 +60,8 @@ Produce a one-page risk-treatment plan with:
 
 - **One page.** Hard limit.
 - Residual risk must be **named explicitly** — not "fully
-  mitigated" (per §5.3).
+  mitigated" (per Chapter 6 §*Residual risk
+  discipline*).
 - Residual risk must be rated **strictly lower** than
   unmitigated risk. If the residual is the same as the
   unmitigated, the controls are not working and the plan
@@ -71,9 +72,10 @@ Produce a one-page risk-treatment plan with:
   Council or higher.
 - Re-evaluation trigger must be **observable**. "If
   things change" is not a trigger.
-- Controls must be linked to leading indicators (per §5.2
-  treatment-plan structure). A control without a
-  confirmatory indicator is decoration.
+- Controls must be linked to leading indicators (per
+  Chapter 6 §*The treatment plan*, the six-property
+  list). A control without a confirmatory indicator is
+  decoration.
 
 ## Rubric
 
@@ -99,8 +101,13 @@ to do so.
 
 ## Reading before you start
 
-- Lecture notes §5 (MANAGE in practice), especially §5.2
-  (treatment plan), §5.3 (residual risk discipline), and
-  §5.5 (the "treat everything" trap).
+- Chapter 6 (MANAGE and Residual Risk) end to end,
+  especially the treatment-plan example, the four
+  residual-risk disciplines, and the *treat everything*
+  trap.
+- Chapter 8 §*Category-level tolerances* — the appetite
+  line for the Bias-and-Fairness category is what makes
+  *acceptable level* observable when you name the
+  residual accepter.
 - mod-102 Exercise 03 reference SOLUTION — for the
   Aldwych ED triage context.

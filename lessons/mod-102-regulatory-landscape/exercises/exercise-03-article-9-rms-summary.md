@@ -96,7 +96,7 @@ authored RMS summaries vary; score yourself on the rubric.
 
 ## Reading before you start
 
-- Lecture notes §2.3 (Art. 9 in depth).
+- [Chapter 3 — Article 9 and the NIST crosswalk](../03-article-9-and-nist-crosswalk.md).
 - EU AI Act Art. 9 + Art. 10 + Art. 13 (operating
   instructions to deployers).
 - mod-101 Exercise 03 reference solution (for the Aldwych

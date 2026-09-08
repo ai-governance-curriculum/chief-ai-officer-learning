@@ -132,6 +132,8 @@ yourself on the rubric.
 
 ## Reading before you start
 
+- [Chapter 2 — EU AI Act: risk tiers and Annex III classification](../02-eu-ai-act-risk-tiers.md).
+
 EU AI Act:
 
 - Art. 5 (prohibited practices)

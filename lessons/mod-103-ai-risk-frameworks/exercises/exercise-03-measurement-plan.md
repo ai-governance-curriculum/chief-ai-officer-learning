@@ -15,7 +15,7 @@ classified the risks. You now need to design the
 **measurement plan**.
 
 The relevant risks from the impact assessment (use the
-taxonomy from §2.2 or Exercise 01):
+taxonomy from Chapter 2 or Exercise 01):
 
 1. **Performance risk** — model recommendation accuracy
    drifts as the small-business economy changes.
@@ -36,8 +36,9 @@ taxonomy from §2.2 or Exercise 01):
 Produce a measurement plan that includes, for each of the
 six risks:
 
-1. **At least one *leading* indicator** (per §4.1 — true
-   leading, not relabeled lagging).
+1. **At least one *leading* indicator** (per Chapter 5's
+   leading-vs-lagging discipline — true leading, not
+   relabeled lagging).
 2. **At least one *lagging* indicator** for verification.
 3. **Threshold** — a specific numeric or categorical
    threshold, set *before* you have production data on it.
@@ -123,8 +124,13 @@ for the Tessera scenario.
 
 ## Reading before you start
 
-- Lecture notes §4 (MEASURE in practice), especially §4.1
-  (leading vs lagging trap), §4.2 (metric design
-  principles), and §4.4 (the eval-set problem).
-- mod-101 Exercise 04 reference solution (Tessera RACI) —
-  for the role-naming context.
+- Chapter 5 (MEASURE and Leading Indicators) end to end,
+  especially the leading-vs-lagging table, the four
+  metric-design principles, and the eval-set problem.
+- Chapter 8 §*Where the appetite sits in the loop* — the
+  thresholds you set here must be coherent with the
+  appetite tolerances the CEO signs. If the appetite has
+  not yet been signed for the taxonomy category, note
+  the assumption you made.
+- mod-101 Exercise 04 reference solution (Tessera RACI)
+  — for the role-naming context.

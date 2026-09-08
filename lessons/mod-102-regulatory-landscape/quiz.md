@@ -1,15 +1,15 @@
 # Module 102 — Quiz
 
-Twenty questions covering the lecture material. Answer key
+Twenty questions covering the chapter material. Answer key
 lives in the paired solutions repo:
-[`ai-infra-chief-ai-officer-solutions / modules/mod-102-regulatory-landscape/quiz-key.md`](https://github.com/ai-governance-curriculum/chief-ai-officer-solutions/blob/main/modules/mod-102-regulatory-landscape/quiz-key.md).
+[`chief-ai-officer-solutions / modules/mod-102-regulatory-landscape/quiz-key.md`](https://github.com/ai-governance-curriculum/chief-ai-officer-solutions/blob/main/modules/mod-102-regulatory-landscape/quiz-key.md).
 
 ---
 
-## Section A — The four lineages (§1)
+## Section A — The four lineages (Chapter 1)
 
 **Q1.** Which of these is **not** one of the four lineages of
-AI regulation named in §1?
+AI regulation named in Chapter 1?
 
   a. Rights-based
   b. Sector-based
@@ -29,7 +29,7 @@ primarily fall under?
 *multiple* lineages and identify which lineages they
 combine.
 
-## Section B — EU AI Act risk tiers (§2)
+## Section B — EU AI Act risk tiers (Chapter 2)
 
 **Q4.** Which EU AI Act risk tier carries **no obligations
 under the Act**?
@@ -60,7 +60,7 @@ Art. 5?
 **Art. 6(3) exemption** does for a system that would
 otherwise be in Annex III.
 
-## Section C — EU AI Act operational provisions (§2)
+## Section C — EU AI Act operational provisions (Chapters 2–3)
 
 **Q8.** Article 9 establishes a **risk management system**
 that must be:
@@ -101,25 +101,26 @@ violation (as adopted)?
 NIST AI RMF function structure maps to the Art. 9 RMS but
 not 1:1.
 
-## Section D — NIST AI RMF Playbook (§3)
+## Section D — NIST AI RMF crosswalk (Chapter 3)
 
-**Q13.** Which Playbook sub-function is the **AI system
-inventory** anchor?
+**Q13.** Which NIST AI RMF function does Chapter 3 map onto
+Article 9(2)(d) (adoption of risk-management measures)?
 
-  a. GOVERN-1.6
-  b. MAP-1.1
-  c. MEASURE-1.1
-  d. MANAGE-3.1
+  a. GOVERN
+  b. MAP
+  c. MEASURE
+  d. MANAGE
 
-**Q14.** True or false: The lecture notes recommend reading
-the NIST AI RMF Playbook end-to-end before starting program
-work.
+**Q14.** True or false: Chapter 3 argues a NIST-shaped
+program can produce an Article 9-compliant RMS by
+*extending* existing artifacts rather than rewriting them
+from scratch.
 
-**Q15.** Short answer: name one Playbook sub-function under
-**MANAGE** that the lecture notes flag as critical for
-*third-party AI risk* and explain in one sentence why.
+**Q15.** Short answer: Chapter 3 names two places where the
+NIST → Article 9 crosswalk *breaks*. Name one and explain
+in one sentence how you would cover the gap.
 
-## Section E — Sector-specific (§4)
+## Section E — Sector-specific (Chapter 4)
 
 **Q16.** The **CFPB's stance on AI adverse-action decisions**
 is best summarized as:
@@ -146,16 +147,20 @@ may be subject to:
 specific regulation** that *predates* AI-specific regulation
 and explain how it is now applied to AI.
 
-## Section F — US state patchwork + jurisdictional discipline (§5–§6)
+## Section F — Mapping, monitoring, and the federal shape (Chapters 5–9)
 
-**Q19.** The lecture notes recommend that a CAO organize the
-governance program by:
+**Q19.** Chapter 6 recommends that the obligations register
+be keyed to:
 
-  a. Regulator
-  b. Geographic jurisdiction
-  c. AI system
-  d. Risk tier
+  a. (Regulation)
+  b. (Regulator, jurisdiction)
+  c. (Regulation, system, business unit)
+  d. (Risk tier, business unit)
 
 **Q20.** Short answer: in two sentences, describe one
-specific *failure mode* the lecture notes warn against when
-operating across the US state patchwork.
+*anti-pattern* Chapter 8 names for a regulatory-monitoring
+function and how the playbook is designed against it.
+
+**Q21.** *(bonus, not scored)* Chapter 9 argues that OMB
+M-25-21 is useful to a private-sector CAO for three
+reasons. Name one.

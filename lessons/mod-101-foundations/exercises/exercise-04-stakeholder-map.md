@@ -120,7 +120,9 @@ independence, etc.), not on row-by-row match.
 
 ## Reading before you start
 
-- Lecture notes §3 (3LOD) and §4 (peer-role boundary table).
+- [Chapter 3](../03-three-lines-of-defense.md) (3LOD) and
+  [Chapter 5](../05-peer-boundaries.md) (peer-role boundary
+  grid).
 - OCC SR 11-7 §III (Model Risk Management Framework) and §IV
   (Independent Validation). Required context for
   understanding why MRM is its own accountable function.
