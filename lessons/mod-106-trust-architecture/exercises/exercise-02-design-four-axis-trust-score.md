@@ -7,12 +7,13 @@
 
 ## Why this exercise exists
 
-§4 of the lecture notes argued for deterministic,
-multi-axis trust scoring as the right posture for
-authorisation decisions. This exercise makes you do the
-work: define the axes, define the inputs, define the
-math, define the thresholds, and defend the choices
-against the alternatives.
+[Chapter 4](../04-trust-scoring-deterministic-vs-heuristic.md)
+argued for deterministic, multi-axis trust scoring as
+the right posture for authorisation decisions. This
+exercise makes you do the work: define the axes,
+define the inputs, define the math, define the
+thresholds, and defend the choices against the
+alternatives.
 
 ## The scenario
 
@@ -44,9 +45,9 @@ For each of four axes, specify:
 - **Refresh cadence** — how often the score is
   re-computed.
 
-You may use the §4.4 starting axes (Identity, Risk,
-Reliability, Autonomy) or adapt them. If you adapt,
-justify in the reasoning notes.
+You may use the Chapter 4 §4.4 starting axes (Identity,
+Risk, Reliability, Autonomy) or adapt them. If you
+adapt, justify in the reasoning notes.
 
 ### Section 2 — The decision logic (≤ ½ page)
 
@@ -57,7 +58,7 @@ axes:
   an allow decision.
 - **Deny** — what combination produces a deny.
 - **Step up** — what combination triggers step-up
-  authentication (per §5.5).
+  authentication (per Chapter 5 §5.5).
 - **Pause for human** — what combination triggers
   human-in-the-loop.
 
@@ -87,7 +88,7 @@ evidence (if any) is required.
 Address:
 
 1. **Why deterministic, not heuristic.** Defend the
-   posture per §4.3 for this context.
+   posture per Chapter 4 §4.3 for this context.
 2. **Why these four axes, not others.** What
    alternatives did you reject?
 3. **The auditability statement.** A one-paragraph
@@ -105,8 +106,8 @@ Address:
   that a developer could implement it**. Do not
   leave it as "a function of signals".
 - The decision logic must be **rule-based, not
-  ML-based**. The §4.3 posture is deterministic for
-  authorisation.
+  ML-based**. The Chapter 4 §4.3 posture is
+  deterministic for authorisation.
 - At least one axis must have an **explicit time
   decay** — the score declines if recent signals
   are not refreshed. Trust without freshness is
@@ -137,8 +138,9 @@ trigger between bands 2 and 3.
 
 ## Reading before you start
 
-- Lecture notes §4 (trust scoring) — all of it,
-  especially §4.4 (axes) and §4.5 (event vocabulary).
+- [Chapter 4 — Trust scoring: deterministic vs heuristic](../04-trust-scoring-deterministic-vs-heuristic.md)
+  — all of it, especially §4.4 (axes) and §4.6
+  (event vocabulary).
 - mod-103 §4.1 (leading-vs-lagging) — applies here:
   trust signals can be leading or lagging.
 - Exercise 01 reference solution (for the operation

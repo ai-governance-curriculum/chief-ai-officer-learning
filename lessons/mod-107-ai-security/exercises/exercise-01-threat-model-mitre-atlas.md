@@ -87,9 +87,9 @@ one-paragraph defence of each ranking.
 - Cite **specific** ATLAS technique IDs, not just
   tactic names.
 - Do not enumerate every conceivable threat. The
-  §1.3 misallocation pattern is the failure mode.
-  Programs that list 50 threats invariably defend
-  none of them well.
+  Chapter 1 §1.5 misallocation pattern is the
+  failure mode. Programs that list 50 threats
+  invariably defend none of them well.
 - The priority ranking must be **defensible**.
   Programs that claim every threat is high priority
   produce defences that are broad and shallow.
@@ -126,9 +126,9 @@ vendor LLM.
 
 ## Reading before you start
 
-- Lecture notes §1 (threat landscape) and §2
-  (taxonomies).
-- mod-106 (trust architecture) — Exercises 01–04
+- [Chapter 1 — The AI threat landscape](../01-ai-threat-landscape-real-vs-hype.md)
+  and [Chapter 2 — Attack taxonomies](../02-attack-taxonomies.md).
+- `mod-106` (trust architecture) — Exercises 01–04
   reference solutions for the agent context.
 - MITRE ATLAS website — at least skim the tactics
   list and pick 5–8 techniques per tactic you'll

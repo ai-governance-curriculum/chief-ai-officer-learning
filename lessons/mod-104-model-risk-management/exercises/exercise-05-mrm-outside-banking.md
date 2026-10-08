@@ -34,9 +34,11 @@ to Cardinal's context:
 
 - What "model" means at Cardinal (use the local
   vocabulary — *device algorithm*, *clinical-decision-
-  support tool*, etc. — per §6.2 of the lecture notes).
+  support tool*, etc. — per Chapter 7's "What does not
+  directly translate" section on vocabulary).
 - Which SR 11-7 disciplines translate directly and which
-  need adaptation (per §6.1 / §6.2).
+  need adaptation (per Chapter 7's "What translates well"
+  and "What does not directly translate" sections).
 - Which Cardinal functions are the analogs to MRM and
   to the AI program.
 
@@ -60,7 +62,8 @@ and the **gap** that needs to be filled by new work.
 ### Section 3 — Tiering (½ page)
 
 A tiering scheme for Cardinal's 14 AI/ML systems. Use the
-§2.2 starting scheme as a base, adapted for healthcare:
+Chapter 2 working three-tier scheme as a base, adapted
+for healthcare:
 
 - Tier 1 Critical — criteria including FDA-cleared
   SaMD, EU MDR Class IIa or higher, anything affecting
@@ -128,8 +131,11 @@ decision-support systems, not by personnel independence.
 
 ## Reading before you start
 
-- Lecture notes §6 (MRM beyond banking) and §6.3
-  (healthcare adaptation).
+- [Chapter 7 — MRM outside banking](../07-mrm-outside-banking.md),
+  especially the healthcare-adaptation section.
+- [Chapter 1 — What SR 11-7 actually requires](../01-what-sr-11-7-actually-requires.md)
+  (so the regulator-facing framing of the four pillars is
+  grounded in the source).
 - mod-101 Exercise 03 (Aldwych Health) and mod-102
   Exercise 03 (Aldwych Article 9 RMS) — for tone of
   healthcare-context governance.

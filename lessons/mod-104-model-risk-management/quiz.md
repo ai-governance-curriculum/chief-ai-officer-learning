@@ -4,7 +4,7 @@ Twenty questions. Answer key in the paired solutions repo.
 
 ---
 
-## Section A — What SR 11-7 actually says (§1)
+## Section A — What SR 11-7 actually requires (Chapter 1)
 
 **Q1.** SR 11-7 identifies **two** sources of model risk.
 Which?
@@ -36,7 +36,7 @@ function in?
 
 ---
 
-## Section B — Model tiering (§2)
+## Section B — Tiering ML models (Chapter 2)
 
 **Q5.** Which of the following is **not** a property of a
 defensible tiering scheme?
@@ -44,10 +44,10 @@ defensible tiering scheme?
   a. Reflects real differences in model risk
   b. Applies consistently across the portfolio
   c. Always uses three tiers
-  d. Is documented in the MRM policy
+  d. Produces reproducible classifications
 
 **Q6.** Which ML-specific consideration is mentioned in
-§2.3 as a possible additional tiering input?
+Chapter 2 as a possible additional tiering input?
 
   a. Number of model parameters
   b. Model size / inscrutability
@@ -59,7 +59,7 @@ safe" is described as a defensible conservative posture.
 
 ---
 
-## Section C — Independent validation (§3)
+## Section C — Independent validation (Chapter 3)
 
 **Q8.** Which of the following is **explicitly identified
 as one of the four elements of validation** in SR 11-7 §IV?
@@ -69,17 +69,17 @@ as one of the four elements of validation** in SR 11-7 §IV?
   c. Vendor third-party attestation
   d. Production traffic logging
 
-**Q9.** Which validation pattern is described in §3.2 as
-"often the only valid approach for LLM outputs without
-ground truth"?
+**Q9.** Which validation pattern is described in Chapter 3
+as "often the only valid approach for LLM outputs with no
+automatic ground truth"?
 
   a. Counterfactual evaluation
   b. Subgroup validation
   c. Human evaluation by domain experts
   d. Out-of-distribution testing
 
-**Q10.** Short answer: in one sentence, explain the
-*independence test* described in §3.3 for validation
+**Q10.** Short answer: in one sentence, state the
+*independence test* from Chapter 3 for validation
 personnel.
 
 **Q11.** Which of these is described as a **material
@@ -93,10 +93,10 @@ beyond the classical triggers?
 
 ---
 
-## Section D — The model lifecycle (§4)
+## Section D — The model lifecycle (Chapter 4)
 
-**Q12.** Which two lifecycle stops does §4.2 identify as
-"most often skipped"?
+**Q12.** Which two lifecycle stops does Chapter 4
+identify as "most often skipped"?
 
   a. Concept approval and data acquisition
   b. Implementation review and retirement
@@ -109,9 +109,26 @@ classical models.
 
 ---
 
-## Section E — CAO × MRM boundary (§5)
+## Section E — Inventory for LLMs (Chapter 5)
 
-**Q14.** Which of these is described as a **collision
+**Q14.** Which of the following is **not** a field the
+chapter identifies as missing from the classical
+inventory template for LLM-class systems?
+
+  a. Foundation-model version pinning
+  b. Prompt template version
+  c. Retrieval corpus / RAG index description
+  d. Model developer's academic affiliation
+
+**Q15.** True or false: a vendor's evaluation of its
+foundation model is sufficient as the firm's validation
+record for the LLM-based system.
+
+---
+
+## Section F — CAO × MRM boundary (Chapter 6)
+
+**Q16.** Which of these is described as a **collision
 pattern** that fails?
 
   a. Joint validation expectations between CAO and MRM
@@ -120,43 +137,32 @@ pattern** that fails?
      function
   d. Joint regulator briefings
 
-**Q15.** Which of the following is owned by **MRM**, not
-the CAO function (per §5.1–§5.2)?
+**Q17.** Which of the following is owned by **MRM**, not
+the CAO function?
 
   a. The AI risk taxonomy
   b. Independent validation of models within MRM scope
   c. The AI risk register
   d. AI vendor and ecosystem risk
 
-**Q16.** Short answer: in two sentences, describe one
+**Q18.** Short answer: in two sentences, describe one
 example of the *intersection* between CAO and MRM scope
-from §5.3 and how it can be operated cleanly.
+and how it can be operated cleanly.
 
 ---
 
-## Section F — MRM outside banking + comprehensive (§6 + cross)
+## Section G — MRM outside banking + comprehensive (Chapter 7 + cross)
 
-**Q17.** Which adaptation is described as most direct from
+**Q19.** Which adaptation is described as closest from
 banking MRM to insurance?
 
-  a. The MRM committee architecture
-  b. The challenger-model paradigm
-  c. The four-pillar framework
+  a. The MRM committee architecture is unchanged
+  b. The actuarial-validation function is the natural
+     MRM home
+  c. The challenger-model paradigm maps directly
   d. The 21-page document length
 
-**Q18.** True or false: SR 11-7's *misuse* framing
+**Q20.** True or false: SR 11-7's *misuse* framing
 applies directly to industrial AI deployments where
 operators use AI beyond the validated operational
 envelope.
-
-**Q19.** Which of these is **not** part of SR 11-7's
-required validation cadence?
-
-  a. Material model change
-  b. Material change in intended use
-  c. Material change in operating environment
-  d. Quarterly regardless of change
-
-**Q20.** Short answer: in two sentences, name one
-pattern from §5.6 (reporting line question) and explain
-the trade-off it carries.

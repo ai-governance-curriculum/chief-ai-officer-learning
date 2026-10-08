@@ -100,9 +100,9 @@ disparate-impact patterns:
 - Per-month subgroup performance data with
   explicit thresholds.
 - Honest treatment of any threshold crossing
-  (per §1 — evidence is not justification; if a
-  threshold was crossed, the package shows the
-  evidence and the response).
+  (per Chapter 1 §1.4 — evidence is not
+  justification; if a threshold was crossed, the
+  package shows the evidence and the response).
 - Inclusion-proof placeholders.
 
 ### Section 6 — Supporting artifacts (≤ ¼ page)
@@ -120,7 +120,8 @@ References to:
 - Production history of the package.
 - Verification protocol the regulator can follow.
 - Package signature reference.
-- Witness countersignature reference (per §2.3).
+- Witness countersignature reference (per
+  Chapter 2 §2.3).
 
 ## Constraints
 
@@ -160,14 +161,16 @@ Reference solution includes one month where the
 demographic threshold was crossed and the AI Review
 Board responded with a documented site-level pause.
 The reference treats this honestly rather than
-hiding it — the discipline §1 named.
+hiding it — the discipline Chapter 1 named and
+Chapter 4 §4.6 made explicit.
 
 ## Reading before you start
 
-- Lecture notes §4 (evidence packages) — all of it.
-- mod-102 §2.7 (EU AI Act Art. 73) and §4 (sector-
-  specific) — for state-regulator context.
-- mod-105 Ex-02 reference (bias metric design) —
+- [Chapter 4 (evidence packages)](../04-evidence-packages.md)
+  — all of it.
+- `mod-102` §2.7 (EU AI Act Art. 73) and §4
+  (sector-specific) — for state-regulator context.
+- `mod-105` Ex-02 reference (bias metric design) —
   for the demographic-monitoring context.
-- mod-107 Ex-04 reference (Northfield's incidents)
-  — for the broader incident context.
+- `mod-107` Ex-04 reference (Northfield's
+  incidents) — for the broader incident context.

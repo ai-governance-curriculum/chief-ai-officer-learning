@@ -39,12 +39,12 @@ into three groups.
 standard's content overlaps with what the AI
 program is already producing — specifically, the
 red-teaming requirements (you authored the program-
-level red-teaming policy per Exercise 02 in mod-107
-of the curriculum), the vendor AI security
-assessment (this overlaps with the AI vendor risk
-program), and AI incident response (you are
-authoring an AI incident classification taxonomy per
-Exercise 04 of this module).
+level red-teaming policy per Exercise 02 of this
+module), the vendor AI security assessment (this
+overlaps with the AI vendor risk program), and AI
+incident response (you are authoring an AI incident
+classification taxonomy per Exercise 04 of this
+module).
 
 **Group 2 — Substantive objections.** The proposed
 prompt-injection defence controls list specific
@@ -97,7 +97,8 @@ A memo that:
 
 ### Artifact 2 — Boundary diagram (1 page)
 
-Per the §5 framework, a diagram showing:
+Per the [Chapter 5](../05-cao-ciso-boundary.md)
+framework, a diagram showing:
 
 - The CISO's scope on AI/ML security.
 - The CAO function's scope on AI/ML security.
@@ -145,13 +146,13 @@ integration mechanics); CAO function authors the
 program-level requirements (what must be filtered,
 what red-teaming policy applies, what vendor
 assessment criteria apply). The split mirrors the
-mod-104 CAO × MRM resolution. Specific
+`mod-104` CAO × MRM resolution. Specific
 prompt-injection defence techniques fall to the
 CISO.
 
 ## Reading before you start
 
-- Lecture notes §5 (CAO × CISO boundary).
-- mod-104 Exercise 04 reference (the parallel CAO ×
+- [Chapter 5 — The CAO × CISO boundary](../05-cao-ciso-boundary.md).
+- `mod-104` Exercise 04 reference (the parallel CAO ×
   MRM boundary dispute).
-- mod-101 §3 (3LOD) and §4 (peer-role boundaries).
+- `mod-101` §3 (3LOD) and §4 (peer-role boundaries).

@@ -47,8 +47,8 @@ Produce two artifacts.
 ### Artifact 1 — Decision matrix (≤ 1 page)
 
 A matrix comparing the three options on at least nine
-dimensions. Use §6.2 of the lecture notes as the
-starting structure, adapted for Halverston:
+dimensions. Use [Chapter 6](../06-build-buy-or-partner.md)
+§6.2 as the starting structure, adapted for Halverston:
 
 | Dimension | Build | Buy | Partner |
 |---|---|---|---|
@@ -73,17 +73,17 @@ A memo to the CTO and CISO from the CAO containing:
 2. **Reasoning** organised around the dimensions
    that determined the choice (typically 3–4 most
    important dimensions).
-3. **What the choice gives up.** §6.1 named the
-   weaknesses of each option; the chosen option
-   has weaknesses that the memo must name.
-4. **CAO-program-specific concerns.** Per §6.5,
-   what the CAO function specifically contributes:
-   regulatory defensibility, audit / evidence
-   requirements, AI-program constraints, long-
-   term posture.
-5. **Vendor capture analysis** (per §6.4, if buy
-   or partner). What concentration risk does the
-   choice carry, and what mitigations apply?
+3. **What the choice gives up.** Chapter 6 §6.1
+   named the weaknesses of each option; the chosen
+   option has weaknesses that the memo must name.
+4. **CAO-program-specific concerns.** Per Chapter 6
+   §6.5, what the CAO function specifically
+   contributes: regulatory defensibility, audit /
+   evidence requirements, AI-program constraints,
+   long-term posture.
+5. **Vendor capture analysis** (per Chapter 6 §6.4,
+   if buy or partner). What concentration risk does
+   the choice carry, and what mitigations apply?
 6. **Acknowledged uncertainties.** Things the
    decision cannot fully resolve and how they will
    be managed.
@@ -117,7 +117,7 @@ A memo to the CTO and CISO from the CAO containing:
 | Recommendation — clear, defensible | 15% |
 | Reasoning — addresses multi-LOB + public-markets latency | 20% |
 | What is given up — substantive | 10% |
-| CAO contribution — substantive per §6.5 | 10% |
+| CAO contribution — substantive per Chapter 6 §6.5 | 10% |
 | Vendor capture analysis (if relevant) | 10% |
 | Acknowledged uncertainties — at least three with plans | 10% |
 
@@ -139,8 +139,8 @@ multi-vendor strategy for the bought components.
 
 ## Reading before you start
 
-- Lecture notes §6 (build, buy, or partner) — all of
-  it.
+- [Chapter 6 — Build, buy, or partner](../06-build-buy-or-partner.md)
+  — all of it.
 - mod-101 §5 (operating models) — the same
   hub-and-spoke pattern logic applies.
 - mod-104 §3.3 (independence and access) — the

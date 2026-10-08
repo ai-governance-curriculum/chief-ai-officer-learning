@@ -23,10 +23,10 @@ Produce three artifacts.
 
 A design specifying:
 
-1. **Gate placement.** Use the §5.1 placement taxonomy
-   (agent-side / reverse-proxy / resource-side /
-   gateway-mediated). State which placements the
-   design uses and why.
+1. **Gate placement.** Use the Chapter 5 §5.1
+   placement taxonomy (agent-side / reverse-proxy /
+   resource-side / gateway-mediated). State which
+   placements the design uses and why.
 
    *The design must use at least two placements* —
    defence-in-depth applies. Single-placement designs
@@ -51,13 +51,14 @@ A design specifying:
    - Inputs (what attestation / manifest / trust-score
      it consumes).
    - Decisions (allow / deny / step-up / log).
-   - Latency budget (per §5.3).
+   - Latency budget (per Chapter 5 §5.3).
    - Failure mode (what happens if the gate itself
      fails — fail-closed or fail-open, and the
      defence of that choice).
 
 4. **Step-up triggers.** Specific conditions under
-   which the pipeline invokes step-up (per §5.5).
+   which the pipeline invokes step-up (per Chapter 5
+   §5.5).
 
 ### Artifact 2 — Latency and availability analysis (≤ ¾ page)
 
@@ -66,7 +67,7 @@ Address:
 1. **End-to-end latency budget.** For an interactive
    operation (customer asks balance), what is the
    cumulative trust-gate latency, and how does it
-   compare to the §5.3 targets (50ms p99
+   compare to the Chapter 5 §5.3 targets (50ms p99
    interactive)?
 
 2. **Availability dependency.** Each gate added is a
@@ -76,13 +77,12 @@ Address:
 
 3. **Caching strategy.** Does the design cache any
    authorisation decisions? If yes, address the
-   §5.3 caveat (revocation invalidates the cache).
-   If no, defend the latency cost.
+   Chapter 5 §5.3 caveat (revocation invalidates the
+   cache). If no, defend the latency cost.
 
 ### Artifact 3 — Tradeoff analysis (≤ ¾ page)
 
-Per §5.4 of the lecture notes, name what the design
-breaks:
+Per Chapter 5 §5.4, name what the design breaks:
 
 1. **Latency.** How much, on whose request?
 2. **Availability dependency.** What is now
@@ -103,7 +103,7 @@ design with no acknowledged costs is not credible.
 ## Constraints
 
 - The pipeline must use **at least two placements**
-  from §5.1.
+  from Chapter 5 §5.1.
 - At least one gate must **fail closed** for
   catastrophic operations. Defend the choice.
 - The latency budget must be **broken out per gate**
@@ -146,8 +146,8 @@ funds-transfer above 75th percentile of customer's
 
 ## Reading before you start
 
-- Lecture notes §5 (trust gates in the request
-  path) — all of it.
+- [Chapter 5 — Trust gates in the request path](../05-trust-gates-in-the-request-path.md)
+  — all of it.
 - Exercises 01–03 reference solutions (for the
   operation context, the 4-axis score, and the
   manifest format).

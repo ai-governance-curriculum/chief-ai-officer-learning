@@ -54,7 +54,7 @@ red team will execute, specify:
 - **Aligned ATLAS techniques** (cite IDs).
 - **Specific actions** the red team will take.
 - **Expected defence layer(s) being tested** (per
-  mod-107 §3.1).
+  [Chapter 3 §3.1](../03-defense-in-depth-for-ai.md)).
 - **Success criteria for the red team** (what
   constitutes a finding).
 - **Success criteria for the defenders** (what
@@ -111,7 +111,7 @@ Specify:
 ## Constraints
 
 - The exercise must include **at least one trust-
-  gate stress test** — testing whether the mod-106
+  gate stress test** — testing whether the `mod-106`
   trust architecture holds.
 - The exercise must include **at least one
   capability-scope test** — testing whether the
@@ -151,8 +151,10 @@ Gate 2's revocation check.
 
 ## Reading before you start
 
-- Lecture notes §4 (red-teaming).
+- [Chapter 4 — Red-teaming as governance practice](../04-red-teaming-as-governance.md).
+- [Chapter 3 — Defense-in-depth](../03-defense-in-depth-for-ai.md)
+  for the nine-layer vocabulary.
 - Exercise 01 reference solution (for the threat
   context).
-- MITRE ATLAS technique catalog (for scenario
+- MITRE ATLAS technique catalogue (for scenario
   construction).

@@ -16,8 +16,8 @@ deployment. The Compliance team has asked for an
 to across all Tier 1 systems. Tessera's current pattern
 is to invoke SHAP attributions for every model and call
 it explainability. Compliance is worried this will not
-satisfy the CFPB and is not in line with what mod-105
-§4 calls *transparency theater*.
+satisfy the CFPB and is not in line with what Chapter 4
+calls *transparency theater*.
 
 ## Your assignment
 
@@ -31,8 +31,8 @@ scope with stated reasons.
 
 ### Section 2 — Audience-specific requirements (≤ 1½ pages)
 
-For each of **at least three** audiences from §4.1 of
-the lecture notes, specify:
+For each of **at least three** audiences from Chapter 4
+§1 (the audience taxonomy), specify:
 
 - The audience.
 - The decisions the audience needs to make based on the
@@ -61,7 +61,8 @@ transparency (≤ ½ page)
 
 State the four principles the standard adopts for
 affected-party transparency — the standard's specific
-operationalization of §4.3 of the lecture notes:
+operationalization of Chapter 4 §4 (affected-party
+transparency):
 
 1. Explainable in actionable terms.
 2. True (not post-hoc rationalisation).
@@ -86,8 +87,8 @@ similar attribution techniques:
 ### Section 5 — Process transparency (≤ ¼ page)
 
 The standard's treatment of *process* transparency
-(§4.5 of the lecture notes). What process information
-must be made available, to whom, in what form.
+(Chapter 4 §6). What process information must be made
+available, to whom, in what form.
 
 ## Constraints
 
@@ -96,9 +97,9 @@ must be made available, to whom, in what form.
 - Each requirement must include the **owner role**.
   Requirements without named owners get ignored.
 - The standard must explicitly address the
-  *mechanical-explainability trap* (§4.4). Standards
-  that allow SHAP charts alone for affected-party
-  explanations are not defensible.
+  *mechanical-explainability trap* (Chapter 4 §5).
+  Standards that allow SHAP charts alone for affected-
+  party explanations are not defensible.
 - The four affected-party principles must include
   operational implementations, not just restatements.
 
@@ -127,10 +128,12 @@ principle status.
 
 ## Reading before you start
 
-- Lecture notes §4 (all of it).
+- [Chapter 4 — Explainability by audience](../04-explainability-by-audience.md)
+  — all of it.
 - mod-102 §2.4 (EU AI Act Art. 11 + Annex IV — for
   regulator-grade transparency).
 - CFPB Circular 2022-03 (the black-box-defense
-  rejection).
+  rejection). Linked in
+  [`resources.md`](../resources.md) Tier 2.
 - Sample published Model Cards (Hugging Face library)
   for format reference.

@@ -11,7 +11,9 @@ worked example + a verifier code-sketch (≤ 3 pages)
 You are advising **Tessera Bank's** Identity team on the
 manifest format the agentic customer-service agent will
 present at each operation. The CISO has narrowed the
-choice to three patterns from §3.3 of the lecture notes:
+choice to three patterns from
+[Chapter 3](../03-identity-and-capability-scoping.md)
+§3.3:
 
 - **VeriSwarm Passport** style (commercial; ES256 signed
   attestation with delegation chain).
@@ -111,9 +113,9 @@ make the verification semantics inspectable.
   an intermediate hop** — what happens then.
 - The chosen pattern must be **honestly defended**.
   If the recommendation is "buy VeriSwarm Passport",
-  the defence must address vendor capture (§6.4).
-  If "build with W3C VC + JWT", the defence must
-  address maintenance burden.
+  the defence must address vendor capture
+  (Chapter 6 §6.4). If "build with W3C VC + JWT",
+  the defence must address maintenance burden.
 
 ## Rubric
 
@@ -141,7 +143,7 @@ requirement.
 
 ## Reading before you start
 
-- Lecture notes §3 (identity and capability scoping).
+- [Chapter 3 — Identity and capability scoping](../03-identity-and-capability-scoping.md).
 - W3C Verifiable Credentials Data Model 2.0 — §§3–5.
 - RFC 7519 (JWT) for token structure.
 - VeriSwarm Passport documentation, Cloudflare AI

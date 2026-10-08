@@ -108,7 +108,7 @@ of the "mechanical-explainability" pattern (SHAP, LIME)?
 
 **Q14.** Short answer: in one sentence, name a category of
 transparency *other* than model-output transparency that
-the lecture notes identify as first-class.
+Chapter 4 identifies as first-class.
 
 ---
 

@@ -52,7 +52,7 @@ nine dimensions:
 - 5-year total cost
 - Annual operating cost
 - Vendor dependency
-- Migration risk (the §6.4 concern)
+- Migration risk (the Chapter 6 §6.4 concern)
 - Standards conformance (RFC 9162, RFC 3161)
 - Customisation for Halverston event vocabulary
 - Regulator defensibility
@@ -69,9 +69,10 @@ A memo to the CTO, CISO, and CRO containing:
 2. **Reasoning** organised around the dimensions
    that determined the choice.
 3. **What is given up** by the choice.
-4. **CAO-program-specific contribution** per §6.5.
-5. **Migration-risk analysis and mitigation**
-   per §6.4.
+4. **CAO-program-specific contribution** per
+   Chapter 6 §6.5.
+5. **Migration-risk analysis and mitigation** per
+   Chapter 6 §6.4.
 6. **Acknowledged uncertainties** with management
    plans.
 
@@ -80,8 +81,8 @@ A memo to the CTO, CISO, and CRO containing:
 - The recommendation must be one of the three —
   not "depends" or "evaluate further".
 - Migration risk must be addressed substantively.
-  This is the most insidious risk per §6.4 and
-  must not be glossed.
+  This is the most insidious risk per
+  Chapter 6 §6.4 and must not be glossed.
 - The reasoning must address Halverston's **multi-
   LOB** structure — public markets, private
   credit, and wealth advisory have different
@@ -103,7 +104,7 @@ A memo to the CTO, CISO, and CRO containing:
 | Recommendation — clear, defensible | 15% |
 | Reasoning — addresses multi-LOB + retention | 25% |
 | What is given up — substantive | 10% |
-| CAO contribution — substantive per §6.5 | 10% |
+| CAO contribution — substantive per Chapter 6 §6.5 | 10% |
 | Migration risk — addressed with mitigation | 15% |
 
 ## Where to submit
@@ -122,8 +123,8 @@ requirements and a documented migration playbook.
 
 ## Reading before you start
 
-- Lecture notes §6 (build, buy, partner).
+- [Chapter 6 (build, buy, or partner)](../06-build-buy-or-partner-for-audit-ledgers.md).
 - Exercise 03 reference (the structural design
   the vendor must conform to).
-- mod-106 Ex-05 reference (the partner pattern at
-  the broader trust architecture level).
+- `mod-106` Ex-05 reference (the partner pattern
+  at the broader trust architecture level).

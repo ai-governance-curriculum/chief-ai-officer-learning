@@ -9,13 +9,14 @@
 ## The scenario
 
 You are the CAO at **Halverston Capital** (the
-context from mod-103 / mod-105 / mod-106). The CISO
-and you have agreed (per the mod-107 Exercise 03
-boundary resolution pattern) that the CAO function
-authors the **program-level requirements** for AI
-defense-in-depth and the CISO authors the security-
-engineering implementation guidance. The CAO has
-been asked for the program standard.
+context from `mod-103` / `mod-105` / `mod-106`). The
+CISO and you have agreed (per the Exercise 03
+boundary resolution pattern of this module) that
+the CAO function authors the **program-level
+requirements** for AI defense-in-depth and the CISO
+authors the security-engineering implementation
+guidance. The CAO has been asked for the program
+standard.
 
 ## Your assignment
 
@@ -28,14 +29,15 @@ The standard must:
 ### Section 1 — Scope (≤ ¼ page)
 
 What systems are in scope, what is out of scope,
-which tiers (per mod-104) attract which levels of
-required defence depth.
+which tiers (per `mod-104` Chapter 2) attract which
+levels of required defence depth.
 
 ### Section 2 — The nine-layer model (≤ 1¾ pages)
 
-For each of the nine layers from §3.1 (principal,
-input, model, output, tool, data, infrastructure,
-observability, response), specify:
+For each of the nine layers from
+[Chapter 3 §3.1](../03-defense-in-depth-for-ai.md)
+(principal, input, model, output, tool, data,
+infrastructure, observability, response), specify:
 
 - **What must be defended** at the layer
   (program-level requirement).
@@ -55,11 +57,12 @@ standard (per Exercise 03 boundary resolution).
 
 Acknowledge:
 
-- Where layer redundancy is correlated (per §3.4
-  principle 2) — i.e., layers that fail together.
+- Where layer redundancy is correlated (per
+  Chapter 3 §3.4.2) — i.e., layers that fail
+  together.
 - Where layer redundancy is independent — i.e.,
   layers that fail independently.
-- Where the **bypass test** (§3.4 principle 3)
+- Where the **bypass test** (Chapter 3 §3.4.3)
   applies — layers that could be skipped.
 
 Programs without this analysis claim defense-in-depth
@@ -134,9 +137,10 @@ minimum that supports CAO program defensibility).
 
 ## Reading before you start
 
-- Lecture notes §3 (defense-in-depth) — all of it.
-- mod-106 (trust architecture) — the trust gates
+- [Chapter 3 — Defense-in-depth for AI systems](../03-defense-in-depth-for-ai.md)
+  — all of it.
+- `mod-106` (trust architecture) — the trust gates
   are part of multiple layers in the model.
-- mod-105 §3 (bias metrics) — output-layer
+- `mod-105` §3 (bias metrics) — output-layer
   filtering for fairness is in scope of the
   output layer.

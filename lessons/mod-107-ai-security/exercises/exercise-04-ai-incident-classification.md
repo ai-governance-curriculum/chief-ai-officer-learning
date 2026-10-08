@@ -96,7 +96,7 @@ above. For each:
   A taxonomy too abstract to determine routing is
   not a taxonomy.
 - Sub-categories must be **small enough to remember**
-  (mod-103 §2.1 discipline — taxonomies with too
+  (`mod-103` §2.1 discipline — taxonomies with too
   many sub-categories are consulted, not used).
 - Routing rules must include **specific named
   roles** at Northfield, not "the appropriate
@@ -106,9 +106,10 @@ above. For each:
   NYDFS Part 500 §500.17, GDPR Art. 33, sector
   rules) where they apply.
 - Worked examples must include the **re-
-  classification dynamic** (per §6.5) — at least
-  one of the three should have its classification
-  evolve between hour 0 and 24.
+  classification dynamic** (per
+  [Chapter 6 §6.6](../06-ai-incident-classification.md))
+  — at least one of the three should have its
+  classification evolve between hour 0 and 24.
 
 ## Rubric
 
@@ -136,11 +137,11 @@ notification.
 
 ## Reading before you start
 
-- Lecture notes §6 (AI incident classification) —
-  all of it.
-- mod-102 §2.7 (EU AI Act Art. 73 timelines).
-- mod-105 Exercise 04 reference (Northfield
+- [Chapter 6 — AI incident classification](../06-ai-incident-classification.md)
+  — all of it.
+- `mod-102` §2.7 (EU AI Act Art. 73 timelines).
+- `mod-105` Exercise 04 reference (Northfield
   contestability process) — for the claims-triage
   context.
-- mod-103 §6.5 (loop closure) — incident
+- `mod-103` §6.5 (loop closure) — incident
   classification feeds program-level change.

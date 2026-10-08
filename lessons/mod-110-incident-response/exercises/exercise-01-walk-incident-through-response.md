@@ -7,117 +7,159 @@
 
 ## The scenario
 
-You are the CAO at **Northfield Mutual**. On Tuesday
-at 09:30 local time, the demographic-stratified
-bias monitoring on the claims-triage v2 system
-emits a threshold-crossing alert: a 6.5pp
-sensitivity gap on the age-80+ subgroup at one
-specific site (Site H-12), the second consecutive
-month showing the gap.
+You are the CAO at **Northfield Mutual**, a US
+life + health insurer with EU-resident policyholder
+exposure via a cross-border group-benefits
+arrangement. On Tuesday at 09:30 local time, the
+demographic-stratified bias monitoring on the
+claims-triage v2 system emits a threshold-crossing
+alert: a 6.5 percentage-point sensitivity gap on
+the age-80+ subgroup at one specific site (Site
+H-12), representing the second consecutive month
+showing the gap.
 
-Per the §6.5 escalation thresholds (mod-107 Ex-04
-taxonomy), this triggers automatic AI Risk Council
-convene.
+Per the escalation thresholds the firm defined
+(building on [`mod-107`](../../mod-107-ai-security/README.md)
+Ex-04 classification taxonomy), this triggers an
+automatic AI Risk Council convene.
 
 ## Your assignment
 
-Walk this incident through all five NIST IR phases
-+ the response-team mechanics. For each phase,
-describe:
+Walk the incident through the four NIST SP 800-61
+phases — preparation (what was already in place),
+detection and analysis, containment / eradication /
+recovery, post-incident activity — plus the
+coordination-and-communication thread. For each
+phase, describe:
 
-- The decisions made and who made them.
+- The decisions made and the deciding role (per
+  the single-named-lead convention in Chapter 2
+  §2.4.3).
 - The actions taken.
-- The artifacts produced (added to the audit
-  ledger per mod-108).
-- The notifications considered (consulting the
-  matrix per §4).
+- The artifacts produced into the audit ledger
+  per [`mod-108`](../../mod-108-audit-ledgers-and-evidence/README.md).
+- The notifications considered against the
+  matrix (per Chapter 4).
 - The time elapsed.
 
 Carry the incident from detection at 09:30 through
-notification, containment, investigation, and
-post-incident review.
+notification, containment, investigation, resolution,
+and post-incident review.
 
 ### Hour 0 (09:30) — Detection (≤ ½ page)
 
-- What detection event fired.
-- Who received it.
-- The first response.
+- What detection event fired, through which
+  channel (per Chapter 2 §2.1).
+- Who received it, and the on-call routing.
+- The first response — including whether a false-
+  positive investigation was considered (per
+  Chapter 2 §2.3).
 
 ### Hour 0–1 — First Hour (≤ 1 page)
 
-The four §2.2 decisions in detail. Specifically:
+The four first-hour decisions from Chapter 2 §2.4
+in detail. For each:
 
-- Verification (is this real?).
-- Provisional classification (per mod-107 Ex-04
-  taxonomy).
-- Single named lead assignment.
-- Containment-posture decision.
+- **Verification** — confirmed, suspected, or
+  likely false positive, with reasoning.
+- **Provisional classification** — per
+  [`mod-107`](../../mod-107-ai-security/README.md)
+  §6 taxonomy; name the sub-category and whether
+  the classification is likely to be revised.
+- **Single named lead** assignment, with the
+  authority basis.
+- **Containment posture** chosen (per Chapter 3
+  §3.1), including which of the five options and
+  the reasoning (per Chapter 3 §3.2).
 
-### Hours 1–24 — Containment + Initial Investigation (≤ 1 page)
+### Hours 1–24 — Containment, Initial Investigation, and the Hour-24 Revisit (≤ 1 page)
 
-- The containment posture chosen and the
-  reasoning.
-- The investigation team and scope.
-- The initial findings.
-- The notification matrix consultation (per §4).
-- Any notifications triggered or pending.
+- The containment posture as held and (if
+  changed) revised, with the Chapter 3 §3.5
+  decision record.
+- The investigation team formation (per Chapter
+  5 §5.5), initial scope, and initial findings.
+- The notification matrix consultation (per
+  Chapter 4), with the specific rows considered.
+  Which clocks are now running? Which
+  notifications have been sent provisionally?
+  Which are pending further information?
+- The hour-24 revisit (Chapter 2 §2.7 /
+  Chapter 4 §4.5.3) in detail.
 
 ### Hours 24–168 (one week) — Deep Investigation (≤ ¾ page)
 
 - The deepening investigation.
-- Root cause emergence (per §5.2 five-whys).
-- Proximate vs. systemic causes.
+- Root-cause emergence via the five-whys
+  discipline (Chapter 5 §5.2).
+- Proximate causes vs. systemic causes (Chapter
+  5 §5.3) — name both explicitly.
 - Resolution of the incident.
 
 ### Days 8–30 — Post-Incident Review (≤ ¾ page)
 
-- Review process per §6.
-- Findings: what worked + what didn't.
-- Recommendations.
-- Loop closure (per mod-103 §6.5).
+- The review process per Chapter 6, including
+  review lead selection (Chapter 6 §6.1) and the
+  participants invited.
+- Findings — what worked (Chapter 6 §6.2) and
+  what did not.
+- Recommendations with the Chapter 6 §6.3
+  discipline. Include at least one residual
+  acceptance (Chapter 6 §6.4) if warranted.
+- Loop closure into the GOVERN backlog
+  ([`mod-103`](../../mod-103-ai-risk-frameworks/README.md)
+  §6).
 
 ## Constraints
 
 - The narrative must be specific — not "the team
   decided" but "AI Risk Lead X decided, at
-  10:18, to pause Site H-12 specifically".
+  10:18, to restrict Site H-12 to elevated
+  human-reviewer sampling of age-80+ claims."
 - The provisional classification must be made
-  within the first hour.
+  within the first hour, in writing, with the
+  deciding role recorded.
 - At least one notification obligation must be
   triggered (EU AI Act Art. 73 if any
-  EU-resident insureds affected; state insurance
-  regulator at minimum).
+  EU-resident policyholders are in the affected
+  cohort; state insurance regulator at
+  minimum).
 - The investigation must surface a *systemic*
-  cause, not just proximate.
-- The post-incident review must produce at least
-  3 specific recommendations.
+  cause (Chapter 5 §5.3), not just a proximate
+  one.
+- The post-incident review must produce at
+  least three specific recommendations
+  structured per Chapter 6 §6.3 — each with
+  owner, timeline, and tracking.
+- At least one recommendation should route into
+  the GOVERN backlog (Chapter 6 §6.5), with a
+  specific improvement-item identifier.
 
 ## Rubric
 
 | Criterion | Weight |
 |---|---|
-| Phase coverage — all five phases | 20% |
-| First-hour decisions per §2.2 | 20% |
-| Containment posture defensible | 15% |
-| Notification matrix consulted | 15% |
-| Systemic cause surfaced | 15% |
-| Post-incident review produces specific recommendations | 15% |
+| Phase coverage — all four NIST phases + coordination | 20% |
+| First-hour decisions per Chapter 2 §2.4 | 20% |
+| Containment posture defensible per Chapter 3 §3.5 | 15% |
+| Notification matrix consulted with specific rows | 15% |
+| Systemic cause surfaced per Chapter 5 §5.3 | 15% |
+| Post-incident review produces specific, tracked recommendations | 15% |
 
 ## Where to submit
 
-`ai-infra-chief-ai-officer-solutions/modules/mod-110-incident-response/exercise-01-walk-incident-through-response/SOLUTION.md`
-
-Reference solution surfaces a systemic cause at the
-training-data refresh process (which removed
-age-80+ examples that the model had been calibrated
-on). Recommendations cover monitoring sensitivity,
-training-data refresh review, and a Site H-12-
-specific re-validation gate.
+`chief-ai-officer-solutions/modules/mod-110-incident-response/exercise-01-walk-incident-through-response/SOLUTION.md`
 
 ## Reading before you start
 
-- Lecture notes §1 (what AI IR is) + §2–§6.
-- mod-107 §6 + Ex-04 (classification taxonomy).
-- mod-105 Ex-02 (bias metric specification).
-- mod-103 Ex-04 (treatment plan format for the
-  systemic-cause response).
+- Chapter 1 (what AI IR is) through Chapter 6
+  (post-incident review) of this module.
+- [`mod-107`](../../mod-107-ai-security/README.md)
+  §6 + Ex-04 (classification taxonomy).
+- [`mod-105`](../../mod-105-responsible-ai-and-ethics/README.md)
+  Ex-02 (bias metric specification) — grounds
+  what the monitoring alert actually represents.
+- [`mod-103`](../../mod-103-ai-risk-frameworks/README.md)
+  Ex-04 (treatment plan with residual
+  discipline) — for the shape of the systemic-
+  cause recommendations.

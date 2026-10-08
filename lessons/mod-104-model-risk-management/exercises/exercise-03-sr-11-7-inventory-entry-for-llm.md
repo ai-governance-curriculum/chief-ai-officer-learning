@@ -103,6 +103,10 @@ template.
 
 ## Reading before you start
 
-- Lecture notes §1.3 (what counts as a model) and §4
-  (lifecycle — implementation review for LLMs).
-- mod-103 §3.1 (inventory attributes).
+- [Chapter 1 — What SR 11-7 actually requires](../01-what-sr-11-7-actually-requires.md)
+  (what counts as a model).
+- [Chapter 4 — The model lifecycle with ML stops](../04-model-lifecycle-with-ml-stops.md)
+  (implementation review — Stop 5 for LLMs).
+- [Chapter 5 — Model inventory for LLMs](../05-model-inventory-for-llms.md)
+  (the primary chapter for this exercise).
+- mod-103 Chapter 3 (inventory attributes).

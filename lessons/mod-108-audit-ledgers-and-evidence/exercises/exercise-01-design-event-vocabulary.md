@@ -28,7 +28,7 @@ State:
 - The scope of the vocabulary (what system, what
   operations).
 - The granularity principle being applied (per
-  §3.1).
+  Chapter 3 §3.1).
 - The boundary between this vocabulary and
   operational logging (what is *not* an evidence
   event).
@@ -36,10 +36,10 @@ State:
 ### Section 2 — The event types (≤ 1½ pages)
 
 Define **8–15** event types covering the categories
-from §3.2: authorisation, capability assertions,
-tool invocations, model interactions, state
-changes, configuration changes, incident-relevant
-events.
+from Chapter 3 §3.2: authorisation, capability
+assertions, tool invocations, model interactions,
+state changes, configuration changes, incident-
+relevant events.
 
 For each event type:
 
@@ -47,7 +47,7 @@ For each event type:
 - **Description** — what the event represents.
 - **When emitted** — the precise trigger.
 - **Required fields** — the data the event must
-  contain (per §3.3).
+  contain (per Chapter 3 §3.3).
 - **Optional fields** — additional context where
   available.
 - **Subject identifier** — what the event is
@@ -99,10 +99,11 @@ non-obvious choices.
 ## Constraints
 
 - The vocabulary must cover **at least four**
-  event categories from §3.2 substantively.
+  event categories from Chapter 3 §3.2
+  substantively.
 - The number of event types is **bounded** —
-  8–15. More than 15 is over-granular per §3.1;
-  fewer than 8 is under-coverage.
+  8–15. More than 15 is over-granular per
+  Chapter 3 §3.1; fewer than 8 is under-coverage.
 - Each event type must have **specific emission
   triggers** — "when something happens" is not
   acceptable.
@@ -134,8 +135,9 @@ documents Tessera-specific extensions.
 
 ## Reading before you start
 
-- Lecture notes §3 (event vocabulary) — all of it.
-- mod-106 §5 (trust gates) — authorisation events
+- [Chapter 3 (event vocabulary)](../03-event-vocabulary-for-ai-systems.md)
+  — all of it.
+- `mod-106` §5 (trust gates) — authorisation events
   come from gate decisions.
 - OpenTelemetry GenAI semantic conventions —
   skim before starting.

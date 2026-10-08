@@ -107,7 +107,7 @@ The discipline for handling evidence:
   regulatory authority** for each obligation.
 - Chain of custody must address **all four**
   custody phases (production, internal, external,
-  post-delivery).
+  post-delivery) per Chapter 5 §5.3.
 - Exception handling must include the **GDPR vs
   retention** tension explicitly. The legitimate-
   purpose carve-out for evidence is one of the
@@ -140,9 +140,9 @@ evidence.
 
 ## Reading before you start
 
-- Lecture notes §5 (retention, sealing, chain of
-  custody) — all of it.
-- mod-102 (regulatory landscape) for the specific
+- [Chapter 5 (retention, sealing, chain of custody)](../05-retention-sealing-and-chain-of-custody.md)
+  — all of it.
+- `mod-102` (regulatory landscape) for the specific
   sources of retention obligation.
 - ISO 42001 — at minimum the auditor expectation
   language.

@@ -7,7 +7,7 @@
 
 ## Why this exercise exists
 
-§3 of the lecture notes named the impossibility result:
+Chapter 3 §2 named the impossibility result:
 you cannot satisfy all fairness definitions simultaneously
 in any context with unequal base rates. This exercise
 forces an actual choice in a specific context and
@@ -108,7 +108,7 @@ limitations are.
   it verbatim, redraft.
 - The specification must address **language of
   presentation** even though it is not a classical
-  protected class. The lecture notes §3.5 named
+  protected class. Chapter 3 §5 named
   behavioral and linguistic patterns as effective
   protected groups.
 
@@ -136,10 +136,12 @@ explicitly names the irreconcilable properties.
 
 ## Reading before you start
 
-- Lecture notes §3 (bias and fairness beyond
-  demographic parity) — all of it, especially §3.2
-  impossibility result.
+- [Chapter 3 — Bias and fairness beyond demographic
+  parity](../03-bias-and-fairness.md) — all of it,
+  especially §2 (the impossibility result) and §5
+  (subgroup discovery).
 - mod-104 Exercise 02 reference (validation patterns,
   subgroup validation).
 - Chouldechova (2017) directly — it is short and the
-  reasoning is accessible.
+  reasoning is accessible. Linked in
+  [`resources.md`](../resources.md) Tier 1.

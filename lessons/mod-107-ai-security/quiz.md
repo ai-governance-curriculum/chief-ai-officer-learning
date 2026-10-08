@@ -4,18 +4,19 @@ Twenty questions. Answer key in the paired solutions repo.
 
 ---
 
-## Section A — Threat landscape (§1)
+## Section A — Threat landscape (Chapter 1)
 
-**Q1.** Which of the following is **not** named in §1.1
-as a category with documented production incidents?
+**Q1.** Which of the following is **not** named in
+Chapter 1 §1.2 as a category with documented production
+incidents?
 
   a. Prompt injection
   b. Data exfiltration through model output
   c. Membership inference attacks
   d. Tool-call exploitation in agentic systems
 
-**Q2.** Which category does §1.2 name as remaining
-mostly theoretical?
+**Q2.** Which category does Chapter 1 §1.3 name as
+remaining mostly theoretical?
 
   a. Adversarial inputs to classification models
   b. Reward hacking in production
@@ -27,11 +28,11 @@ defences around every theoretical threat will produce
 broad and deep defences.
 
 **Q4.** Short answer: in one sentence, describe the
-*misallocation pattern* (§1.3).
+*misallocation pattern* (Chapter 1 §1.5).
 
 ---
 
-## Section B — Attack taxonomies (§2)
+## Section B — Attack taxonomies (Chapter 2)
 
 **Q5.** Which taxonomy is described as the **bridging
 framework** for cross-LLM-and-classical-ML attack
@@ -43,8 +44,7 @@ treatment?
   d. NIST AI RMF Playbook
 
 **Q6.** Which taxonomy is described as best for
-**executive communication of LLM-specific
-priorities**?
+**executive communication of LLM-specific priorities**?
 
   a. MITRE ATLAS
   b. OWASP LLM Top 10
@@ -52,22 +52,22 @@ priorities**?
   d. NIST AI 600-1
 
 **Q7.** Short answer: in one sentence, describe the
-composition pattern §2.4 recommends.
+composition pattern Chapter 2 §2.4 recommends.
 
 ---
 
-## Section C — Defense-in-depth (§3)
+## Section C — Defense-in-depth (Chapter 3)
 
 **Q8.** Which is **not** one of the nine layers named
-in §3.1?
+in Chapter 3 §3.1?
 
   a. Principal layer
   b. Input layer
   c. Model layer
   d. Marketing layer
 
-**Q9.** Which three layers are named in §3.2 as the
-**most common blind spots**?
+**Q9.** Which three layers are named in Chapter 3 §3.2
+as the **most common blind spots**?
 
   a. Principal, model, infrastructure
   b. Tool, output, response
@@ -79,14 +79,15 @@ filtering technique are two separate controls for
 defense-in-depth purposes.
 
 **Q11.** Short answer: in one sentence, describe the
-*bypass test* (§3.4 third principle).
+*bypass test* (Chapter 3 §3.4.3).
 
 ---
 
-## Section D — Red-teaming (§4)
+## Section D — Red-teaming (Chapter 4)
 
 **Q12.** Which of the following is **not** named in
-§4.1 as a program-level function red-teaming serves?
+Chapter 4 §4.1 as a program-level function red-teaming
+serves?
 
   a. Discover unknown failure modes
   b. Stress-test the controls
@@ -94,7 +95,7 @@ defense-in-depth purposes.
   d. Replace ongoing monitoring
 
 **Q13.** What red-teaming cadence is recommended in
-§4.4 for **Tier 1 Critical** systems?
+Chapter 4 §4.4 for **Tier 1 Critical** systems?
 
   a. Trigger-based only
   b. Before deployment + annually + on material change
@@ -102,7 +103,7 @@ defense-in-depth purposes.
   d. Once at deployment
 
 **Q14.** Which independence pattern is recommended in
-§4.5 as the strongest for Tier 1 systems?
+Chapter 4 §4.5 as the strongest for Tier 1 systems?
 
   a. Internal red team within the AI program with
      structural safeguards
@@ -112,23 +113,23 @@ defense-in-depth purposes.
   d. Vendor-provided red team
 
 **Q15.** Short answer: in one sentence, name one
-element from §4.3 that a working red-team program
-specifies.
+element from Chapter 4 §4.3 that a working red-team
+program specifies.
 
 ---
 
-## Section E — The CAO × CISO boundary (§5)
+## Section E — The CAO × CISO boundary (Chapter 5)
 
-**Q16.** Per §5.5, where should AI-specific security
-**engineering** sit?
+**Q16.** Per Chapter 5 §5.7, where should AI-specific
+security **engineering** sit?
 
   a. In the CAO function
   b. In the CISO's organisation
   c. In a parallel AI security function
   d. Outsourced to a vendor
 
-**Q17.** Which of these is a **collision pattern**
-per §5.4?
+**Q17.** Which of these is a **collision pattern** per
+Chapter 5 §5.6?
 
   a. Joint red-teaming expectations
   b. Cross-referenced incident classification
@@ -136,16 +137,15 @@ per §5.4?
   d. Shared vendor-risk machinery
 
 **Q18.** Short answer: in two sentences, describe how
-the CAO × CISO boundary structurally mirrors the
-CAO × MRM boundary (mod-104 §5).
+the CAO × CISO boundary structurally mirrors the CAO ×
+MRM boundary (`mod-104` Chapter 6).
 
 ---
 
-## Section F — AI incident classification (§6)
+## Section F — AI incident classification (Chapter 6)
 
-**Q19.** A prompt injection causing an agent to
-disclose another customer's account information is
-classified as:
+**Q19.** A prompt injection causing an agent to disclose
+another customer's account information is classified as:
 
   a. Security incident
   b. AI-program incident
@@ -154,5 +154,4 @@ classified as:
 
 **Q20.** Short answer: in two sentences, describe one
 EU AI Act Art. 73 timeline and explain why the
-classification must be pre-computed before the
-incident.
+classification must be pre-computed before the incident.

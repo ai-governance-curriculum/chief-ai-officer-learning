@@ -49,8 +49,8 @@ evaluating. Includes:
 For each of **four** validation patterns (challenger
 plus three additional), describe:
 
-- **Pattern name** (from §3.2 of the lecture notes or a
-  reasoned alternative).
+- **Pattern name** (from Chapter 3's taxonomy of
+  validation patterns, or a reasoned alternative).
 - **What it evaluates** (which validation element +
   which risk category from the mod-103 taxonomy).
 - **Method** — concrete steps a validator could execute.
@@ -70,15 +70,17 @@ How the validation team is independent of the model owner:
 - Who performs each pattern (MRM, CAO function, external,
   joint).
 - What access is needed and how it is granted.
-- The "independence test" application (per §3.3): is
-  the validation team independent of the model owner
-  in a way that would survive an after-failure review?
+- The "independence test" application (per Chapter 3's
+  independence test): is the validation team independent
+  of the model owner in a way that would survive an
+  after-failure review?
 
 ### Section 4 — Re-validation triggers (½ page)
 
 What triggers re-validation:
 
-- Material change triggers (per §3.4).
+- Material change triggers (per Chapter 3's
+  re-validation cadence section).
 - ML-specific triggers (training data refresh threshold,
   third-party data source change, prompt template
   changes if relevant).
@@ -106,7 +108,7 @@ What triggers re-validation:
 | Scope statement — specific, bounded | 10% |
 | Four patterns — at least one bias, at least one transparency/data | 25% |
 | Pattern detail — method + inputs + acceptance + limitations per pattern | 25% |
-| Independence statement — passes the §3.3 test | 15% |
+| Independence statement — passes the Chapter 3 independence test | 15% |
 | Re-validation triggers — concrete, ML-specific included | 15% |
 | Length discipline — ≤ 3 pages | 10% |
 
@@ -121,8 +123,10 @@ selection.
 
 ## Reading before you start
 
-- Lecture notes §3 (independent validation).
-- mod-103 §2 (AI risk taxonomy) for risk-category
+- [Chapter 3 — Independent validation for ML](../03-independent-validation-for-ml.md).
+- [Chapter 4 — The model lifecycle with ML stops](../04-model-lifecycle-with-ml-stops.md)
+  for the ongoing-monitoring half of §IV element 2.
+- mod-103 Chapter 2 (AI risk taxonomy) for risk-category
   vocabulary.
 - mod-102 §4 (sector — CFPB and fair-lending).
 - SR 11-7 §IV directly.

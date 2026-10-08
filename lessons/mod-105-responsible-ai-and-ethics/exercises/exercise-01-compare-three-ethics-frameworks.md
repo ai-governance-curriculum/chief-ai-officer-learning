@@ -8,7 +8,7 @@ operational-disagreement memo
 
 ## Why this exercise exists
 
-§2.2 of the lecture notes named the convergence problem:
+Chapter 2 §2 named the convergence problem:
 principles documents agree at the principle level and
 diverge at the operationalization level. This exercise
 makes you do the actual work of finding the divergence
@@ -122,6 +122,10 @@ not authoritative).
 
 ## Reading before you start
 
-- Lecture notes §2 (the principles landscape).
+- [Chapter 2 — The principles landscape](../02-the-principles-landscape.md),
+  especially §3 (where principles diverge in practice)
+  and §5 (choosing a framing principle set).
 - The three frameworks you select — at least the
-  operational sections.
+  operational sections. The anchor links in
+  [`resources.md`](../resources.md) Tier 1 point to the
+  primary documents.

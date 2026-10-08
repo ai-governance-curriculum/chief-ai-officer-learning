@@ -86,8 +86,9 @@ the visual matters less than the structure) showing:
   regulator letter, board reporting) route through the
   boundary.
 
-Use the §5.3 intersection-topic table from the lecture
-notes as a starting structure.
+Use the intersection-topic table from Chapter 6
+("The intersection — where both have legitimate claims")
+as a starting structure.
 
 ## Constraints
 
@@ -127,5 +128,8 @@ performing the model-quality re-validation in parallel.
 
 ## Reading before you start
 
-- Lecture notes §5 (CAO × MRM boundary) — all of it.
+- [Chapter 6 — The CAO × MRM boundary](../06-cao-mrm-boundary.md) — all of it.
+- [Chapter 3 — Independent validation for ML](../03-independent-validation-for-ml.md)
+  for the vendor-foundation-model-swap material-change
+  trigger specifically.
 - mod-101 §3 (3LOD) and §4 (peer-role boundaries).

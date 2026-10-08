@@ -160,10 +160,10 @@ SHA-256 + ES256.
 
 ## Reading before you start
 
-- Lecture notes §2 (the tamper-evident ledger
-  pattern) — all of it.
+- [Chapter 2 (the tamper-evident ledger pattern)](../02-the-tamper-evident-ledger-pattern.md)
+  — all of it.
 - RFC 9162 — at least §4 (Verification) and §5
   (Algorithm Agility).
 - RFC 3161 — §2 (Time-Stamp Token).
-- mod-106 §6 (build vs buy) — the framework
+- `mod-106` §6 (build vs buy) — the framework
   applies here too.

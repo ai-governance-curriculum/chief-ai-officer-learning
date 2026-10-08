@@ -7,8 +7,8 @@
 
 ## Why this exercise exists
 
-§6 of the lecture notes named the hardest CAO ethics
-work: holding a position under pressure, naming
+Chapter 7 named the hardest CAO ethics work:
+holding a position under pressure, naming
 disagreement honestly, surviving the moment when the
 business wants the program to soften. This exercise puts
 you into that moment and asks you to produce the
@@ -122,7 +122,7 @@ The memo must:
    The recommendation must be specific.
 
 4. **Name the disagreement honestly** where it exists.
-   Per §6.5 of the lecture notes, the CAO ethics
+   Per Chapter 7 §5, the CAO ethics
    function sometimes names a disagreement rather
    than resolves it. Identify which (if any) of the
    three concerns falls into this category.
@@ -182,9 +182,12 @@ unresolved.
 
 ## Reading before you start
 
-- Lecture notes §6 (operationalizing ethics) — all of
-  it, especially §6.3 (under business pressure) and
-  §6.5 (naming a disagreement).
+- [Chapter 7 — Operationalizing ethics](../07-operationalizing-ethics.md)
+  — all of it, especially §4 (ethics under business
+  pressure) and §5 (naming a disagreement).
+- [Chapter 1 — Ethics vs compliance and risk](../01-ethics-vs-compliance-and-risk.md)
+  §3 (what ethics is not) for the ethics-vs-
+  consensus framing.
 - mod-101 §6 (failure modes — governance theatre).
 - mod-102 §4 (financial-services regulation; SEC /
   FINRA / CFTC posture on AI).

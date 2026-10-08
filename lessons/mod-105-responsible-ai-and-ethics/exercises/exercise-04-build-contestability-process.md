@@ -44,7 +44,7 @@ Produce two artifacts.
 
 ### Artifact 1 — Process design (≤ 2 pages)
 
-Address the six elements from §5.1 of the lecture notes:
+Address the six elements from Chapter 5 §1:
 
 1. **The named decision** — what specifically is being
    contested. Be precise (it is not "the claim
@@ -70,11 +70,12 @@ that operationalizes it.
 
 Also include:
 
-- **Recourse alternatives** (§5.2) — what affected
-  parties can do *outside* contestation. Honest naming
-  of what these are at Northfield.
-- **Contestability anti-patterns avoided** — which §5.4
-  anti-patterns the process explicitly avoids and how.
+- **Recourse alternatives** (Chapter 5 §2) — what
+  affected parties can do *outside* contestation.
+  Honest naming of what these are at Northfield.
+- **Contestability anti-patterns avoided** — which
+  Chapter 5 §4 anti-patterns the process explicitly
+  avoids and how.
 
 ### Artifact 2 — Worked example (≤ 1 page)
 
@@ -102,9 +103,10 @@ timeline. Include a representative outcome.
   window**. Average claim-settlement delay for the
   insured is 23 days; contestation resolution must be
   bounded materially shorter.
-- The process must avoid all anti-patterns from §5.4 —
-  no routing back to the same model, no contestation
-  requiring AI expertise from the affected party.
+- The process must avoid all anti-patterns from
+  Chapter 5 §4 — no routing back to the same model,
+  no contestation requiring AI expertise from the
+  affected party.
 - The worked example must include a **specific,
   defensible outcome** — not "outcome to be
   determined".
@@ -135,8 +137,9 @@ review outcome.
 
 ## Reading before you start
 
-- Lecture notes §5 (contestability and recourse) — all
-  of it.
+- [Chapter 5 — Contestability and recourse](../05-contestability-and-recourse.md)
+  — all of it, especially §1 (six elements) and §4
+  (anti-patterns).
 - mod-103 §6 (GOVERN — for the relationship between
   contestation outcomes and the program's loop).
 - Sector guidance: state-level insurance contestation

@@ -7,87 +7,128 @@
 
 ## The scenario
 
-You are the CAO at **Tessera Bank**. The Audit
-Committee has asked for an explicit materiality
-framework so that the boundary between
+You are the CAO at **Tessera Bank**, a $25B
+US regional bank with primary supervision by
+the OCC, consumer-protection supervision by
+the CFPB, state-level cybersecurity oversight
+under NYDFS Part 500 for its NY-chartered
+subsidiary, and model-risk oversight under
+SR 11-7.
+
+The Audit Committee has asked for an explicit
+materiality framework so the boundary between
 board-level matters and CAO-function-level
 matters is consistent across the program. The
-CCO has agreed (per mod-109 Ex-05 split-
-authorship resolution) that AI-specific
-materiality will be authored by the CAO
-function.
+CCO has agreed (building on the
+[`mod-109`](../../mod-109-compliance-operations/README.md)
+Exercise 05 split-authorship resolution) that
+AI-specific materiality is authored by the
+CAO function.
 
 ## Your assignment
 
-Produce a materiality framework with:
+Produce a materiality framework following
+[Chapter 4](../04-materiality-framework.md):
 
 ### Section 1 — Definition and approach (≤ ¼ page)
 
-- What materiality means for Tessera AI matters.
+- What materiality means for Tessera AI
+  matters (Chapter 4 §4.1).
 - The relationship to Tessera's enterprise
-  materiality framework (which exists for non-AI
-  matters).
-- The principle that the framework structures
-  judgment, doesn't replace it.
+  materiality framework for non-AI matters.
+- The principle that the framework
+  structures judgment, not replaces it.
 
 ### Section 2 — The dimensions (≤ ¼ page)
 
-The five §4.2 dimensions, with Tessera-specific
-adaptations as needed.
+The five Chapter 4 §4.2 dimensions
+(financial, regulatory, reputational,
+operational, strategic), with Tessera-
+specific adaptations.
 
 ### Section 3 — Calibrated thresholds (≤ 1¼ pages)
 
-For each dimension, the calibrated thresholds at
-Tessera's specific scale (Tessera is a $25B
-regional bank). Examples per dimension:
+For each dimension, the thresholds calibrated
+to Tessera's $25B scale per Chapter 4 §4.3.
 
 | Dimension | Threshold | Examples |
 |---|---|---|
-| Financial | > $5M or > 0.5% of annual revenue | $5M+ customer remediation; AI-related fine |
-| Regulatory | Any regulator-initiated action; EU AI Act Art. 73; CFPB inquiry | Specific examples |
-| Reputational | Public exposure; > 1,000 customers affected | Specific examples |
-| Operational | > 4-hour AI system outage; cross-LOB impact | Specific examples |
-| Strategic | Material change in AI direction; major vendor change | Specific examples |
+| Financial | ≥ $5M or ≥ 0.5% of revenue | $5M+ remediation; $10M fine |
+| Regulatory | Any regulator-initiated action; EU AI Act Art. 73; SR 11-7 material model event; CFPB inquiry; SEC 8-K-triggering AI cyber event | OCC MRA; CFPB CID; NCA inquiry |
+| Reputational | Public exposure or substantiated potential; ≥ 1,000 customers visible | Media coverage; customer-visible adverse-action failure |
+| Operational | > 4-hour AI system outage; cross-LOB impact; RTO breach | Trust gate outage; LLM vendor outage |
+| Strategic | Material change in AI direction; vendor concentration crossing diversification floor | Entering new use case; major vendor swap |
 
 ### Section 4 — Decision examples (≤ ¾ page)
 
-Apply the framework to specific Tessera scenarios:
+Apply the framework to specific scenarios:
 
-- **Scenario A — The Site H-12 bias incident
-  pattern at Tessera.** Material? Why?
-- **Scenario B — A trust-gate outage of 2 hours
-  affecting one LOB.** Material?
-- **Scenario C — Vendor LLM swap discovered with
-  required notice received.** Material?
-- **Scenario D — One customer complaint about
-  AI-driven adverse action.** Material?
+- **Scenario A — Site H-12 bias incident
+  pattern at Tessera.** A sensitivity gap
+  above the appetite threshold sustained over
+  two monitoring cycles. Material? Along
+  which dimensions? Reasoning.
+- **Scenario B — Trust-gate outage of 2
+  hours affecting one LOB (commercial
+  lending).** Material?
+- **Scenario C — Vendor LLM swap discovered
+  rather than pre-notified.** Vendor
+  changed the model version with contractual
+  notice but the notice reached Tessera via
+  the Model Risk team rather than the
+  procurement channel. Material?
+- **Scenario D — One customer complaint
+  about an AI-driven adverse-action notice
+  that did not contain the specific reasons
+  required by Reg B §1002.9.** Material?
 - **Scenario E — A 6pp sensitivity gap in
   monitoring for one weekly cycle (single
-  data point, no trend).** Material?
+  data point, no established trend).**
+  Material?
 
-For each, the materiality decision and the
-reasoning.
+For each, name the materiality decision and
+the reasoning. At least one must be a
+**boundary case** requiring §4.5 escalation.
 
 ### Section 5 — Boundary-case escalation (≤ ¼ page)
 
-The §4.5 escalation process specific to
-Tessera.
+Tessera-specific version of the Chapter 4
+§4.5 escalation — CRO within 5 business days,
+Board Risk Committee chair within 10
+business days if unresolved, disposition
+recorded in the
+[`mod-108`](../../mod-108-audit-ledgers-and-evidence/README.md)
+audit ledger.
 
 ### Section 6 — Calibration cadence (≤ ¼ page)
 
-When and how the thresholds are recalibrated.
+When and how the thresholds are
+recalibrated per Chapter 4 §4.6.
 
 ## Constraints
 
-- Thresholds must be **calibrated to Tessera's
-  $25B scale** — not generic.
+- Thresholds must be **calibrated to
+  Tessera's $25B scale** — not generic.
 - At least three thresholds must be
   **quantitative**.
-- The decision examples must address each of
-  the five scenarios with explicit reasoning.
+- The decision examples must address all
+  five scenarios with explicit reasoning.
 - At least one scenario must be a **boundary
-  case** requiring §4.5 escalation rather than
-  a clear material/non-material call.
+  case** requiring §4.5 escalation rather
+  than a clear material/non-material call.
+- The framework must address at least two of
+  the Chapter 4 §4.8 anti-patterns
+  explicitly (threshold creep, boundary-
+  case-as-default, materiality-by-
+  consensus) — how Tessera's framework
+  avoids them.
+- The regulatory dimension must specify
+  which regimes Tessera is in-scope for and
+  how the AI-specific framework coexists
+  with the statutory floors in Chapter 4
+  §4.7 (SEC 8-K, EU AI Act Art. 73, SR 11-7,
+  NYDFS Part 500 §500.17, GDPR Arts. 33-34
+  as applicable).
 
 ## Rubric
 
@@ -95,25 +136,37 @@ When and how the thresholds are recalibrated.
 |---|---|
 | Definition and approach | 10% |
 | Dimensions adapted for Tessera | 10% |
-| Thresholds calibrated to scale | 25% |
-| Decision examples — five with reasoning | 30% |
+| Thresholds calibrated to $25B scale | 20% |
+| Decision examples — five with reasoning | 25% |
 | At least one boundary case escalation | 10% |
-| Calibration cadence specified | 10% |
+| Anti-patterns addressed | 10% |
+| Regulatory statutory floors addressed | 10% |
 | Length discipline — ≤ 3 pages | 5% |
 
 ## Where to submit
 
-`ai-infra-chief-ai-officer-solutions/modules/mod-111-board-reporting/exercise-03-design-materiality-framework/SOLUTION.md`
+`chief-ai-officer-solutions/modules/mod-111-board-reporting/exercise-03-design-materiality-framework/SOLUTION.md`
 
 Reference solution treats Scenario D (one
-customer complaint) as the boundary case
-requiring escalation — depending on the
-complaint's nature, it may or may not be
-material, and the §4.5 escalation discipline is
-applied.
+customer complaint on Reg B §1002.9
+specificity) as the boundary case —
+depending on whether the complaint pattern
+is isolated or structural, it may or may not
+be material; the §4.5 escalation discipline
+is applied.
 
 ## Reading before you start
 
-- Lecture notes §4 (materiality).
-- mod-107 Ex-04 (incident classification — for
+- Chapter 4 (materiality framework), all
+  sections.
+- Chapter 1 (what boards need) for the
+  distinction between oversight-altitude and
+  management-altitude matter.
+- [`mod-107`](../../mod-107-ai-security/README.md)
+  Exercise 04 (classification taxonomy —
   related context).
+- [SEC 2023 cybersecurity disclosure final rule](https://www.sec.gov/)
+  for the Form 8-K materiality baseline.
+- [EU AI Act Art. 73](https://artificialintelligenceact.eu/)
+  for the serious-incident notification
+  posture.

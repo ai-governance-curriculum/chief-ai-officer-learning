@@ -54,8 +54,8 @@ matters more than visual polish) showing:
    authentication / authorisation method, the
    blast radius if the boundary fails.
 
-Use the seven tenets from §2.1 of the lecture notes
-to verify that each boundary is addressed.
+Use the seven tenets from [Chapter 2](../02-zero-trust-adapted-for-ai-agents.md)
+§2.1 to verify that each boundary is addressed.
 
 ### Artifact 2 — The accompanying memo (1 page)
 
@@ -94,8 +94,8 @@ Address:
   identity. Many programs collapse these and lose
   the distinction.
 - The memo must address the *blast radius framing*
-  from §2.3 — at least one boundary's design must be
-  justified by blast-radius reasoning.
+  from Chapter 2 §2.3 — at least one boundary's design
+  must be justified by blast-radius reasoning.
 
 ## Rubric
 
@@ -120,8 +120,8 @@ consequence.
 
 ## Reading before you start
 
-- Lecture notes §1 (what trust means) and §2 (zero-trust
-  adapted).
+- [Chapter 1 — What "trust" means for AI systems](../01-what-trust-means-for-ai-systems.md).
+- [Chapter 2 — Zero-trust adapted for AI agents](../02-zero-trust-adapted-for-ai-agents.md).
 - mod-104 Ex-04 reference (the Vendor X swap scenario)
   for the dynamic-identity context.
 - NIST SP 800-207 §3 (architectural approaches).

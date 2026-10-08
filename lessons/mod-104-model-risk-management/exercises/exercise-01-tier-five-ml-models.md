@@ -12,7 +12,7 @@ You are the CAO at **Sentinel Mutual Bank**, a $25B regional
 US bank. The MRM function (under the CRO) has historically
 tiered actuarial and credit-decisioning models. Sentinel's
 MRM policy uses a three-tier scheme broadly aligned with
-§2.2 of the lecture notes. You are now responsible for
+Chapter 2's working scheme. You are now responsible for
 extending the tiering to AI/ML systems.
 
 The MRM Lead has asked you to **tier five candidate ML
@@ -77,12 +77,13 @@ For each model, produce:
 
 1. **Recommended tier** (Tier 1 Critical / Tier 2
    Important / Tier 3 Standard).
-2. **The criteria from §2.2 you are applying** (be
-   specific: which (i) / (ii) / (iii) criterion
-   triggered tier).
+2. **The criteria from Chapter 2's working scheme you
+   are applying** (be specific: which (i) / (ii) / (iii)
+   criterion triggered tier).
 3. **Any ML-specific tiering input you are using**
    (data freshness, inscrutability, vendor provenance —
-   from §2.3).
+   from Chapter 2's "ML-specific tiering considerations"
+   section).
 4. **One sentence of reasoning** for the assignment.
 5. **What would change the tier** — a specific change
    to the model description that would move it up or
@@ -92,7 +93,7 @@ For each model, produce:
 
 A table:
 
-| Model | Tier | §2.2 criteria triggered | ML-specific input | One-line reasoning |
+| Model | Tier | Chapter 2 criteria triggered | ML-specific input | One-line reasoning |
 |---|---|---|---|---|
 | A — Credit boost |  |  |  |  |
 | B — LLM chat |  |  |  |  |
@@ -107,7 +108,7 @@ line per model.
 
 - **Tiers must be defensible against the MRM Lead.**
   Be ready to defend against the "this should be Tier 1
-  to be safe" objection (per §2.4 anti-patterns).
+  to be safe" objection (per the Chapter 2 anti-patterns).
 - **Tiering must be consistent.** If Model A is Tier 1 on
   the basis of customer-facing decision-making, Model D
   (which also drives binding decisions) must also be
@@ -123,11 +124,11 @@ line per model.
 | Criterion | Weight |
 |---|---|
 | Tier choices — defensible | 30% |
-| §2.2 criteria — specifically identified per model | 20% |
+| Chapter 2 criteria — specifically identified per model | 20% |
 | ML-specific inputs — applied where relevant | 15% |
 | Consistency across the five — like-risk like-tier | 15% |
 | "What would change the tier" — surfaces a real alternative | 10% |
-| Restraint — anti-patterns from §2.4 avoided | 10% |
+| Restraint — Chapter 2 anti-patterns avoided | 10% |
 
 ## Where to submit
 
@@ -139,6 +140,6 @@ explains the choice.
 
 ## Reading before you start
 
-- Lecture notes §1 (what SR 11-7 actually says) and §2
-  (model tiering).
+- [Chapter 1 — What SR 11-7 actually requires](../01-what-sr-11-7-actually-requires.md).
+- [Chapter 2 — Tiering ML models](../02-tiering-ml-models.md).
 - mod-102 §4 (sector-specific — financial services).
